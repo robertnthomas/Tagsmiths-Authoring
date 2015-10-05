@@ -1,0 +1,77 @@
+<!-- CONDITIONAL ASSIGNMENTS activated from ConfigurationSettings.ent -->
+<![%simpleAbstractConstraintSetting;[
+  <!ENTITY % simpleAbstract-constraints_option "&simpleAbstract-constraints;">
+]]>
+<![%simpleDdConstraintSetting;[
+  <!ENTITY % simpleDd-constraints_option "&simpleDd-constraints;">
+]]>
+<![%simpleDescConstraintSetting;[
+  <!ENTITY % simpleDesc-constraints_option "&simpleDesc-constraints;">
+]]>
+<![%simpleEntryConstraintSetting;[
+  <!ENTITY % simpleEntry-constraints_option "&simpleEntry-constraints;">
+]]>
+<![%simpleExampleConstraintSetting;[
+  <!ENTITY % simpleExample-constraints_option "&simpleExample-constraints;">
+]]>
+<![%simpleItemgroupConstraintSetting;[
+  <!ENTITY % simpleItemgroup-constraints_option "&simpleItemgroup-constraints;">
+]]>
+<![%simpleLiConstraintSetting;[
+  <!ENTITY % simpleLi-constraints_option "&simpleLi-constraints;">
+]]>
+<![%simpleLinkinfoConstraintSetting;[
+  <!ENTITY % simpleLinkinfo-constraints_option "&simpleLinkinfo-constraints;">
+]]>
+<![%simpleLqConstraintSetting;[
+  <!ENTITY % simpleLq-constraints_option "&simpleLq-constraints;">
+]]>
+<![%simpleNoteConstraintSetting;[
+  <!ENTITY % simpleNote-constraints_option "&simpleNote-constraints;">
+]]>
+<![%simplePConstraintSetting;[
+  <!ENTITY % simpleP-constraints_option "&simpleP-constraints;">
+]]>
+<![%simpleSectionConstraintSetting;[
+  <!ENTITY % simpleSection-constraints_option "&simpleSection-constraints;">
+]]>
+<![%simpleSectiondivConstraintSetting;[
+  <!ENTITY % simpleSectiondiv-constraints_option "&simpleSectiondiv-constraints;">
+]]>
+<![%simpleStentryConstraintSetting;[
+  <!ENTITY % simpleStentry-constraints_option "&simpleStentry-constraints;">
+]]>
+
+<!-- FALLBACK ASSIGNMENTS -->
+<!ENTITY % simpleAbstract-constraints_option "">
+<!ENTITY % simpleDd-constraints_option "">
+<!ENTITY % simpleDesc-constraints_option "">
+<!ENTITY % simpleEntry-constraints_option "">
+<!ENTITY % simpleExample-constraints_option "">
+<!ENTITY % simpleItemgroup-constraints_option "">
+<!ENTITY % simpleLi-constraints_option "">
+<!ENTITY % simpleLinkinfo-constraints_option "">
+<!ENTITY % simpleLq-constraints_option "">
+<!ENTITY % simpleNote-constraints_option "">
+<!ENTITY % simpleP-constraints_option "">
+<!ENTITY % simpleSection-constraints_option "">
+<!ENTITY % simpleSectiondiv-constraints_option "">
+<!ENTITY % simpleStentry-constraints_option "">
+
+<!-- DOMAINS ATTRIBUTE VALUE -->
+<!ENTITY % commonConstraintsDomainsAttr "
+%simpleAbstract-constraints_option;
+%simpleDd-constraints_option;
+%simpleDesc-constraints_option;
+%simpleEntry-constraints_option;
+%simpleExample-constraints_option;
+%simpleItemgroup-constraints_option;
+%simpleLi-constraints_option;
+%simpleLinkinfo-constraints_option;
+%simpleLq-constraints_option;
+%simpleNote-constraints_option;
+%simpleP-constraints_option;
+%simpleSection-constraints_option;
+%simpleSectiondiv-constraints_option;
+%simpleStentry-constraints_option;
+">

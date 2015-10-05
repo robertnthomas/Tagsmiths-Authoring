@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- CONDITIONAL ASSIGNMENTS activated from ConfigurationSettings.ent -->
+<![%simpleRemedyConstraintSetting;[
+  <!ENTITY % simpleRemedy-constraints_option "&simpleRemedy-constraints;">
+]]>
+
+<!-- FALLBACK ASSIGNMENTS -->
+<!ENTITY % simpleRemedy-constraints_option "">
+
+<!-- DOMAINS ATTRIBUTE VALUE -->
+<!ENTITY % troubleshootingConstraintsDomainsAttr "
+%simpleRemedy-constraints_option;
+">

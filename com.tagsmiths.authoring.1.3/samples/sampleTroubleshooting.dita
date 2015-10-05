@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE troubleshooting PUBLIC "-//Tagsmiths//DTD DITA Authoring Troubleshooting//EN" "authoring-troubleshooting.dtd">
+<troubleshooting id="sampleTroubleshooting">
+  <title>Big trouble</title>
+  <troublebody>
+    <condition><title>Some condition</title>
+      <p>Topic paragraph></p>
+      <note></note>
+    </condition><troubleSolution>
+      <cause><title>Some cause</title></cause>
+      <remedy>
+        <steps>
+          <step>
+            <cmd>Do this</cmd>
+            <info><p>Do it to it.</p></info>
+          </step>
+        </steps>
+      </remedy>
+    </troubleSolution>
+  </troublebody>
+</troubleshooting>

@@ -1,0 +1,32 @@
+DITA for Authors Licensing Terms
+
+The DITA for Authors project is an open source project initially
+created by and donated by Tagsmiths, LLC. Its intent is to foster the
+widest possible use and adoption of DITA. To that end its licensing
+terms are as unrestrictive as possible and appropriate.
+
+All DITA for Authors materials are licensed with the same Apache
+license as used by the DITA Open Toolkit or with a compatible but
+less restrictive license. Sample materials are either in the public
+domain or are licensed with some form of Creative Commons license.
+
+The general intent for the DITA for Authors projects is that all the
+materials may be used as the base for commercial or non-commercial
+derivative works as long as an apppropriate attribution is included
+in any use.
+
+In particular, the following uses are explicitly allowed:
+
++ The DITA for Authors Open Toolkit plugin may be bundled with
+  third-party tools and commercial products, either separately or as
+  part of a larger Open Toolkit package.
+
++ The non-Toolkit materials may be used in commercial and
+  non-commerical products as allowed by the Apache license (which
+  allows essentially unrestricted use with attribution).
+
++ The sample materials may be used without restriction except where
+  they carry a restrictive license as required by the original source.
+
+Attribution for this plugin must be maintained. To do so, preserve
+this license.txt file or rename it as license.orignal.txt

@@ -1,0 +1,85 @@
+<![%simpleAbstractConstraintSetting;[
+  <!ENTITY % simpleDdConstraint-c-def
+    PUBLIC "-//Tagsmiths//ELEMENTS DITA 1.3 Simple Dd Constraint//EN"
+    "simpleDdConstraint.mod"
+  >
+  %simpleDdConstraint-c-def;
+]]>
+<![%simpleDdConstraintSetting;[
+  <!ENTITY % simpleAbstractConstraint-c-def  
+    PUBLIC "-//Tagsmiths//ELEMENTS DITA 1.3 Simple Abstract Constraint//EN" 
+    "simpleAbstractConstraint.mod"
+  >%simpleAbstractConstraint-c-def;
+]]>
+<![%simpleDescConstraintSetting;[
+  <!ENTITY % simpleDescConstraint-c-def
+    PUBLIC "-//Tagsmiths//ELEMENTS DITA 1.3 Simple Desc Constraint//EN"
+    "simpleDescConstraint.mod"
+  >%simpleDescConstraint-c-def;
+]]>
+<![%simpleEntryConstraintSetting;[
+  <!ENTITY % simpleEntryConstraint-c-def
+    PUBLIC "-//Tagsmiths//ELEMENTS DITA 1.3 Simple Entry Constraint//EN"
+    "simpleEntryConstraint.mod"
+  >%simpleEntryConstraint-c-def;
+]]>
+<![%simpleExampleConstraintSetting;[
+  <!ENTITY % simpleExampleConstraint-c-def
+    PUBLIC "-//Tagsmiths//ELEMENTS DITA 1.3 Simple Example Constraint//EN"
+    "simpleExampleConstraint.mod"
+  >%simpleExampleConstraint-c-def;
+]]>
+<![%simpleItemgroupConstraintSetting;[
+  <!ENTITY % simpleItemgroupConstraint-c-def
+    PUBLIC "-//Tagsmiths//ELEMENTS DITA 1.3 Simple Itemgroup Constraint//EN"
+    "simpleItemgroupConstraint.mod"
+  >%simpleItemgroupConstraint-c-def;
+]]>
+<![%simpleLiConstraintSetting;[
+  <!ENTITY % simpleLiConstraint-c-def
+    PUBLIC "-//Tagsmiths//ELEMENTS DITA 1.3 Simple Li Constraint//EN"
+    "simpleLiConstraint.mod"
+  >%simpleLiConstraint-c-def;
+]]>
+<![%simpleLinkinfoConstraintSetting;[
+  <!ENTITY % simpleLinkinfoConstraint-c-def
+    PUBLIC "-//Tagsmiths//ELEMENTS DITA 1.3 Simple Linkinfo Constraint//EN"
+    "simpleLinkinfoConstraint.mod"
+  >%simpleLinkinfoConstraint-c-def;
+]]>
+<![%simpleLqConstraintSetting;[
+  <!ENTITY % simpleLqConstraint-c-def
+    PUBLIC "-//Tagsmiths//ELEMENTS DITA 1.3 Simple Lq Constraint//EN"
+    "simpleLqConstraint.mod"
+  >%simpleLqConstraint-c-def;
+]]>
+<![%simpleNoteConstraintSetting;[
+  <!ENTITY % simpleNoteConstraint-c-def
+    PUBLIC "-//Tagsmiths//ELEMENTS DITA 1.3 Simple Note Constraint//EN"
+    "simpleNoteConstraint.mod"
+  >%simpleNoteConstraint-c-def;
+]]>
+<![%simplePConstraintSetting;[
+  <!ENTITY % simplePConstraint-c-def
+    PUBLIC "-//Tagsmiths//ELEMENTS DITA 1.3 Simple P Constraint//EN"
+    "simplePConstraint.mod"
+  >%simplePConstraint-c-def;
+]]>
+<![%simpleSectionConstraintSetting;[
+  <!ENTITY % simpleSectionConstraint-c-def  
+    PUBLIC "-//Tagsmiths//ELEMENTS DITA 1.3 Simple Section Constraint//EN" 
+    "simpleSectionConstraint.mod"
+  >%simpleSectionConstraint-c-def;
+]]>
+<![%simpleSectiondivConstraintSetting;[
+  <!ENTITY % simpleSectiondivConstraint-c-def  
+    PUBLIC "-//Tagsmiths//ELEMENTS DITA 1.3 Simple Sectiondiv Constraint//EN" 
+    "simpleSectiondivConstraint.mod"
+  >%simpleSectiondivConstraint-c-def;
+]]>
+<![%simpleStentryConstraintSetting;[
+  <!ENTITY % simpleStentryConstraint-c-def
+    PUBLIC "-//Tagsmiths//ELEMENTS DITA 1.3 Simple Stentry Constraint//EN"
+    "simpleStentryConstraint.mod"
+  >%simpleStentryConstraint-c-def;
+]]>

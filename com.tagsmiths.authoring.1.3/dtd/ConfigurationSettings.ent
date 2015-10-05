@@ -1,0 +1,221 @@
+<!-- ============================================================= -->
+<!--                    HEADER                                     -->
+<!-- ============================================================= -->
+
+<!-- Refer to this file by the following public identifier or an
+     appropriate system identifier :
+PUBLIC "-//Tagsmiths//ENTITIES DITA Configuration Settings//EN"
+     Delivered as file "ConfigurationSettings.ent"
+-->
+
+
+<!-- This file allows you to quickly add or remove domain
+     vocabularies and contraint modules from the shell DTDs. A
+     change in setting here will be applied across all of the
+     authoring DTDs. For example, if you uncomment
+     <!ENTITY % highlight-domain "IGNORE"> and then comment
+     out <!ENTITY % highlight-domain "INCLUDE"> all of the elements
+     defined in highlight-domain will be removed from each of
+     the authoring DTDs.
+-->
+
+
+
+<!-- ============================================================= -->
+<!--                     DOMAIN SETTINGS                           -->
+<!-- ============================================================= -->
+
+<!-- The abbreviated-form domain calls in: <abbreviated-form>      -->
+<!ENTITY % abbreviated-form-domain "INCLUDE">
+<!--<!ENTITY % abbreviated-form-domain "IGNORE">-->
+
+<!-- The equation domain calls in: <equation-block> <equation-figure>
+     <equation-inline> <equation-number>                           -->
+<!--<!ENTITY % equation-domain "INCLUDE">-->
+<!ENTITY % equation-domain "IGNORE">
+
+<!-- The hazard-statement domain calls in: <consequence>
+     <hazardstatement> <hazardsymbol> <howtoavoid> <messagepanel>
+     <typeofhazard>                                                -->
+<!ENTITY % hazard-statement-domain "INCLUDE">
+<!--<!ENTITY % hazard-statement-domain "IGNORE">-->
+
+<!-- The highlight domain calls in: <b> <i> <sub> <sup> <tt> <u>   -->
+<!ENTITY % highlight-domain "INCLUDE">
+<!--<!ENTITY % highlight-domain "IGNORE">-->
+
+<!-- The indexing domain calls in: <index-see> <index-see-aslo>
+     <index-sort-as>                                               -->
+<!ENTITY % indexing-domain "INCLUDE">
+<!--<!ENTITY % indexing-domain "IGNORE">-->
+
+<!-- The markup domain calls in: <markupname>                      -->
+<!ENTITY % markup-domain "INCLUDE">
+<!--<!ENTITY % markup-domain "IGNORE">-->
+
+<!-- The mathml domain calls in: <mathml> <mathmlref>              -->
+<!ENTITY % mathml-domain "INCLUDE">
+<!--<!ENTITY % mathml-domain "IGNORE">-->
+
+<!-- The programming domain calls in: <apiname> <codeblock>
+     <codeph> <coderef> <delim> <fragment> <fragref> <groupchoice>
+     <groupcomp> <groupseq> <kwd> <oper> <option> <parml>
+     <parmname> <pd> <plentry> <pt> <repsep> <sep> <synblk>
+     <synnote> <synnoteref> <synph> <syntaxdiagram> <var>          -->
+<!ENTITY % programming-domain "INCLUDE">
+<!--<!ENTITY % programming-domain "IGNORE">-->
+
+<!-- The software domain calls in: <cmdname> <filepath> <msgblock>
+     <msgnum> <msgph>  <systemoutput> <userinput> <varname>        -->
+
+<!-- The release-management domain calls in: <change-completed>
+     <change-historylist> <change-item> <change-organization>
+     <change-person> <change-request-id> <change-request-reference>
+     <change-request-system> <change-revisionid> <change-started>
+     <change-summary>                                              -->
+<!ENTITY % release-management-domain "INCLUDE">
+<!--<!ENTITY % release-management-domain "IGNORE">-->
+
+<!-- The software domain calls in: <cmdname> <filepath> <msgblock>
+     <msgnum> <msgph> <systemoutput> <userinput> <varname>         -->
+<!ENTITY % software-domain "INCLUDE">
+<!--<!ENTITY % software-domain "IGNORE">-->
+
+<!-- The svg domain calls in: <svg-container>                      -->
+<!ENTITY % svg-domain "INCLUDE">
+<!--<!ENTITY % svg-domain "IGNORE">-->
+
+<!-- The user-interface domain calls in: <menucascade> <screen>
+     <shortcut> <uicontrol> <wintitle>                             -->
+<!ENTITY % user-interface-domain "INCLUDE">
+<!--<!ENTITY % user-interface-domain "IGNORE">-->
+
+<!-- The utility domain calls in: <imagemap> <area> <shape>
+     <coords>                                                      -->
+<!ENTITY % utility-domain "INCLUDE">
+<!--<!ENTITY % utility-domain "IGNORE">-->
+
+<!-- The xml-mention domain calls in: -->
+<!ENTITY % xml-mention-domain "INCLUDE">
+<!--<!ENTITY % xml-mention-domain "IGNORE">-->
+
+
+<!-- ============================================================= -->
+<!--                 CONSTRAINT SETTINGS                           -->
+<!-- ============================================================= -->
+
+<!-- REFERENCE ELEMENTS -->
+
+<!ENTITY % simplePropdescConstraintSetting "INCLUDE">
+<!--<!ENTITY % simplePropdescConstraintSetting "IGNORE">-->
+
+<!ENTITY % simpleRefsynConstraintSetting "INCLUDE">
+<!--<!ENTITY % simpleRefsynConstraintSetting "IGNORE">-->
+
+
+<!-- COMMON ELEMENTS -->
+
+<!ENTITY % simpleAbstractConstraintSetting "INCLUDE">
+<!--<!ENTITY % simpleAbstractConstraintSetting "IGNORE">-->
+
+<!ENTITY % simpleDdConstraintSetting "INCLUDE">
+<!--<!ENTITY % simpleDdConstraintSetting "IGNORE">-->
+
+<!ENTITY % simpleDescConstraintSetting "INCLUDE">
+<!--<!ENTITY % simpleDescConstraintSetting "IGNORE">-->
+
+<!ENTITY % simpleEntryConstraintSetting "INCLUDE">
+<!--<!ENTITY % simpleEntryConstraintSetting "IGNORE">-->
+
+<!ENTITY % simpleExampleConstraintSetting "INCLUDE">
+<!--<!ENTITY % simpleExampleConstraintSetting "IGNORE">-->
+
+<!ENTITY % simpleItemgroupConstraintSetting "INCLUDE">
+<!--<!ENTITY % simpleItemgroupConstraintSetting "IGNORE">-->
+
+<!ENTITY % simpleLiConstraintSetting "INCLUDE">
+<!--<!ENTITY % simpleLiConstraintSetting "IGNORE">-->
+
+<!ENTITY % simpleLinkinfoConstraintSetting "INCLUDE">
+<!--<!ENTITY % simpleLinkinfoConstraintSetting "IGNORE">-->
+
+<!ENTITY % simpleLqConstraintSetting "INCLUDE">
+<!--<!ENTITY % simpleLqConstraintSetting "IGNORE">-->
+
+<!ENTITY % simpleNoteConstraintSetting "INCLUDE">
+<!--<!ENTITY % simpleNoteConstraintSetting "IGNORE">-->
+
+<!ENTITY % simplePConstraintSetting "INCLUDE">
+<!--<!ENTITY % simplePConstraintSetting "IGNORE">-->
+
+<!ENTITY % simpleSectionConstraintSetting "INCLUDE">
+<!--<!ENTITY % simpleSectionConstraintSetting "IGNORE">
+-->
+<!ENTITY % simpleSectiondivConstraintSetting "INCLUDE">
+<!--<!ENTITY % simpleSectiondivConstraintSetting "IGNORE">-->
+
+<!ENTITY % simpleStentryConstraintSetting "INCLUDE">
+<!--<!ENTITY % simpleStentryConstraintSetting "IGNORE">-->
+
+
+<!-- TASK ELEMENTS -->
+
+<!ENTITY % simpleChdescConstraintSetting "INCLUDE">
+<!--<!ENTITY % simpleChdescConstraintSetting "IGNORE">-->
+
+<!ENTITY % simpleChdeschdConstraintSetting "INCLUDE">
+<!--<!ENTITY % simpleChdeschdConstraintSetting "IGNORE">-->
+
+<!ENTITY % simpleChoiceConstraintSetting "INCLUDE">
+<!--<!ENTITY % simpleChoiceConstraintSetting "IGNORE">-->
+
+<!ENTITY % simpleChoptionConstraintSetting "INCLUDE">
+<!--<!ENTITY % simpleChoptionConstraintSetting "IGNORE">-->
+
+<!ENTITY % simpleChoptionhdConstraintSetting "INCLUDE">
+<!--<!ENTITY % simpleChoptionhdConstraintSetting "IGNORE">-->
+
+<!ENTITY % simpleContextConstraintSetting "INCLUDE">
+<!--<!ENTITY % simpleContextConstraintSetting "IGNORE">-->
+
+<!ENTITY % simpleInfoConstraintSetting "INCLUDE">
+<!--<!ENTITY % simpleInfoConstraintSetting "IGNORE">-->
+
+<!ENTITY % simplePostreqConstraintSetting "INCLUDE">
+<!--<!ENTITY % simplePostreqConstraintSetting "IGNORE">-->
+
+<!ENTITY % simplePrereqConstraintSetting "INCLUDE">
+<!--<!ENTITY % simplePrereqConstraintSetting "IGNORE">-->
+
+<!ENTITY % simpleResultConstraintSetting "INCLUDE">
+<!--<!ENTITY % simpleResultConstraintSetting "IGNORE">-->
+
+<!ENTITY % simpleStepresultConstraintSetting "INCLUDE">
+<!--<!ENTITY % simpleStepresultConstraintSetting "IGNORE">-->
+
+<!ENTITY % simpleSteps-informalConstraintSetting "INCLUDE">
+<!--<!ENTITY % simpleSteps-informalConstraintSetting "IGNORE">-->
+
+<!ENTITY % simpleStepsectionConstraintSetting "INCLUDE">
+<!--<!ENTITY % simpleStepsectionConstraintSetting "IGNORE">-->
+
+<!ENTITY % simpleSteptroubleshootingConstraintSetting "INCLUDE">
+<!--<!ENTITY % simpleSteptroubleshootingConstraintSetting "IGNORE">-->
+
+<!ENTITY % simpleStepxmpConstraintSetting "INCLUDE">
+<!--<!ENTITY % simpleStepxmpConstraintSetting "IGNORE">-->
+
+<!ENTITY % simpleTasktroubleshootingConstraintSetting "INCLUDE">
+<!--<!ENTITY % simpleTasktroubleshootingConstraintSetting "IGNORE">-->
+
+<!ENTITY % simpleTutorialinfoConstraintSetting "INCLUDE">
+<!--<!ENTITY % simpleTutorialinfoConstraintSetting "IGNORE">-->
+
+<!ENTITY % strictTaskbodyConstraintSetting "INCLUDE">
+<!--<!ENTITY % strictTaskbodyConstraintSetting "IGNORE">-->
+
+<!-- TROUBLESHOOTING ELEMENTS -->
+
+<!ENTITY % simpleRemedyConstraintSetting "INCLUDE">
+<!--<!ENTITY % simpleRemedyConstraintSetting "IGNORE">-->
+

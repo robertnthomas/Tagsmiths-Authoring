@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dita PUBLIC "-//Tagsmiths//DTD DITA Authoring Composite//EN"
+ "authoring-ditabase.dtd">
+<dita domains="(topic task)
+(topic concept)
+(topic concept glossentry)
+(topic concept glossgroup)
+(topic reference)
+(topic troubleshooting++task)
+(topic task)
+(topic abbrev-d) a(props deliveryTarget) 
+(topic hazard-d)
+(topic hi-d)
+(topic indexing-d)
+(topic markup-d)
+(topic mathml-d)
+(topic pr-d)
+(topic relmgmt-d)
+(topic sw-d)
+(topic svg-d)
+(topic ui-d)
+(topic ut-d)
+(topic markup-d xml-d)
+(topic simpleAbstract-c)
+(topic simpleDd-c)
+(topic simpleDesc-c)
+(topic simpleEntry-c)
+(topic task simpleExample-c)
+(topic simpleItemgroup-c)
+(topic simpleLi-c)
+(topic simpleLinkinfo-c)
+(topic simpleLq-c)
+(topic simpleNote-c)
+(topic simpleP-c)
+(topic simpleSection-c)
+(topic simpleSectiondiv-c)
+(topic simpleStentry-c) 
+(topic reference simplePropdesc-c)    
+(topic reference simpleRefsyn-c) 
+(topic task simpleChdesc-c)
+(topic task simpleChdeschd-c)
+(topic task simpleChoice-c)
+(topic task simpleChoption-c)
+(topic task simpleChoptionhd-c)
+(topic task simpleContext-c)
+(topic task simpleInfo-c)
+(topic task simplePostreq-c)
+(topic task simplePrereq-c)
+(topic task simpleResult-c)
+(topic task simpleStepresult-c)
+(topic task simpleSteps-informal-c)
+(topic task simpleStepsection-c)
+(topic task simpleSteptroubleshooting-c)
+(topic task simpleTasktroubleshooting-c)
+(topic task simpleStepxmp-c)
+(topic task simpleTutorialinfo-c)
+(topic task strictTaskbody-c) 
+(topic troubleshooting simpleRemedy-c)  ">
+  <concept id="concept">
+    <title>Concept</title>
+    <conbody>
+      <p>Many parts are edible.</p>
+      <ol>
+        <li>
+          <p>9mm</p>
+        </li>
+        <li>
+          <p>.38</p>
+        </li>
+      </ol>
+    </conbody>
+  </concept>
+  <glossentry id="glossentry">
+    <glossterm>Glossentry</glossterm>
+    <glossdef>
+      <p>Short topic that contains a glossary entry</p>
+    </glossdef>
+  </glossentry>
+  <reference id="reference">
+    <title>Reference</title>
+    <refbody>
+      <section>
+        <p>Some paragraph</p>
+        <dl>
+          <dlentry>
+            <dt>Term</dt>
+            <dd>
+              <p>Term definition</p>
+            </dd>
+          </dlentry>
+        </dl>
+      </section>
+      <section>
+        <title>Some section</title>
+        <p>Some para</p>
+      </section>
+    </refbody>
+  </reference>
+  <task id="task">
+    <title>Task</title>
+    <taskbody>
+      <steps>
+        <step>
+          <cmd>First</cmd>
+        </step>
+        <step>
+          <cmd>Second</cmd>
+        </step>
+      </steps>
+    </taskbody>
+  </task>
+  <topic id="topic">
+    <title>Topic</title>
+    <body>
+      <section>
+        <title>Section</title>
+        <p>Paragraph.</p>
+      </section>
+    </body>
+  </topic>
+</dita>

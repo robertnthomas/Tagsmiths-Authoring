@@ -1,0 +1,13 @@
+<![%simplePropdescConstraintSetting;[
+  <!ENTITY % simplePropdescConstraint-c-def
+    PUBLIC "-//Tagsmiths//ELEMENTS DITA 1.3 Simple Propdesc Constraint//EN"
+    "simplePropdescConstraint.mod"
+  >%simplePropdescConstraint-c-def;
+]]>
+
+<![%simpleRefsynConstraintSetting;[
+  <!ENTITY % simpleRefsynConstraint-c-def
+    PUBLIC "-//Tagsmiths//ELEMENTS DITA 1.3 Simple Refsyn Constraint//EN"
+    "simpleRefsynConstraint.mod"
+  >%simpleRefsynConstraint-c-def;
+]]>

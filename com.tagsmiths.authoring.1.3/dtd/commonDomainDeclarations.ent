@@ -1,0 +1,275 @@
+<!-- ============================================================= -->
+<!--                    HEADER                                     -->
+<!-- ============================================================= -->
+
+<!-- Refer to this file by the following public identifier or an 
+     appropriate system identifier :
+PUBLIC "-//Tagsmiths//ENTITIES DITA Common Domain Invocation//EN"
+"commonDomainInvocation.ent"
+-->
+
+<![%abbreviated-form-domain;[
+  <!ENTITY % abbrev-d-dec
+    PUBLIC "-//OASIS//ENTITIES DITA 1.3 Abbreviated Form Domain//EN"
+           "../../org.oasis-open.dita.v1_3/dtd/technicalContent/dtd/abbreviateDomain.ent"
+  >%abbrev-d-dec;
+  <!ENTITY % abbrev-d-term_option " | %abbrev-d-term;">
+]]>
+<!-- Fallback values for when abbreviated-form-domain is excluded -->
+<!ENTITY % abbrev-d-term_option "">
+<!ENTITY abbrev-d-att "">
+
+
+<![%equation-domain;[
+<!ENTITY % equation-d-dec
+  PUBLIC "-//OASIS//ENTITIES DITA 1.3 Equation Domain//EN"
+         "../../org.oasis-open.dita.v1_3/dtd/technicalContent/dtd/equationDomain.ent"
+  >%equation-d-dec;  
+  <!ENTITY % equation-d-ph_option " | %equation-d-ph;" >
+  <!ENTITY % equation-d-div_option " | %equation-d-div;" >
+  <!ENTITY % equation-d-fig_option "| %equation-d-fig;" >
+]]>
+<!-- Fallback values for when equation-domain is excluded -->
+<!ENTITY % equation-d-ph_option "">
+<!ENTITY % equation-d-div_option "">
+<!ENTITY % equation-d-fig_option "">
+<!ENTITY equation-d-att "">
+
+
+<![%hazard-statement-domain;[
+  <!ENTITY % hazard-d-dec
+    PUBLIC "-//OASIS//ENTITIES DITA 1.3 Hazard Statement Domain//EN"
+           "../../org.oasis-open.dita.v1_3/dtd/base/dtd/hazardstatementDomain.ent"
+  >%hazard-d-dec;
+  <!ENTITY % hazard-d-note_option " | %hazard-d-note;">
+]]>
+<!-- Fallback values for when hazard-statement-domain is excluded -->
+<!ENTITY % hazard-d-note_option "">
+<!ENTITY hazard-d-att "">
+
+
+<![%highlight-domain;[
+  <!ENTITY % hi-d-dec
+    PUBLIC "-//OASIS//ENTITIES DITA 1.3 Highlight Domain//EN"
+           "../../org.oasis-open.dita.v1_3/dtd/base/dtd/highlightDomain.ent"
+  >%hi-d-dec;
+  <!ENTITY % hi-d-ph_option " | %hi-d-ph;" >
+]]>
+<!-- Fallback values for when highlight-domain is excluded -->
+<!ENTITY % hi-d-ph_option "" >
+<!ENTITY hi-d-att "">
+
+
+<![%indexing-domain;[
+  <!ENTITY % indexing-d-dec
+    PUBLIC "-//OASIS//ENTITIES DITA 1.3 Indexing Domain//EN"
+           "../../org.oasis-open.dita.v1_3/dtd/base/dtd/indexingDomain.ent"
+  >%indexing-d-dec;
+  <!ENTITY % indexing-d-index-base_option " | %indexing-d-index-base;">
+]]>
+<!-- Fallback values for when highlight-domain is excluded -->
+<!ENTITY % indexing-d-index-base_option "">
+<!ENTITY indexing-d-att "">
+
+
+<![%markup-domain;[
+  <!ENTITY % markup-d-dec
+    PUBLIC "-//OASIS//ENTITIES DITA 1.3 Markup Domain//EN"
+           "../../org.oasis-open.dita.v1_3/dtd/technicalContent/dtd/markupDomain.ent"
+  >%markup-d-dec;  
+  <!ENTITY % markup-d-keyword_option " | %markup-d-keyword;">  
+]]>
+<!-- Fallback values for when markup-domain is excluded -->
+<!ENTITY % markup-d-keyword_option "">
+<!ENTITY markup-d-att "">
+
+
+<![%mathml-domain;[
+  <!ENTITY % mathml-d-dec
+    PUBLIC "-//OASIS//ENTITIES DITA 1.3 MathML Domain//EN"
+           "../../org.oasis-open.dita.v1_3/dtd/technicalContent/dtd/mathmlDomain.ent"
+  >%mathml-d-dec;  
+  <!ENTITY % mathml-d-foreign_option " | %mathml-d-foreign;">
+]]>
+<!-- Fallback values for when mathml-domain is excluded -->
+<!ENTITY % mathml-d-foreign_option "">
+<!ENTITY mathml-d-att "">
+
+
+<![%programming-domain;[
+  <!ENTITY % pr-d-dec
+    PUBLIC "-//OASIS//ENTITIES DITA 1.3 Programming Domain//EN"
+           "../../org.oasis-open.dita.v1_3/dtd/technicalContent/dtd/programmingDomain.ent"
+  >%pr-d-dec;
+  <!ENTITY % pr-d-dl_option " | %pr-d-dl;">
+  <!ENTITY % pr-d-fig_option " | %pr-d-fig;">
+  <!ENTITY % pr-d-keyword_option " | %pr-d-keyword;">
+  <!ENTITY % pr-d-pre_option " | %pr-d-pre;">
+  <!ENTITY % pr-d-ph_option " | %pr-d-ph;">
+]]>
+<!-- Fallback values for when programming-domain is excluded -->
+<!ENTITY % pr-d-dl_option "">
+<!ENTITY % pr-d-fig_option "">
+<!ENTITY % pr-d-keyword_option "">
+<!ENTITY % pr-d-pre_option "">
+<!ENTITY % pr-d-ph_option "">
+<!ENTITY pr-d-att "">
+
+
+<![%release-management-domain;[
+  <!ENTITY % relmgmt-d-dec
+    PUBLIC "-//OASIS//ENTITIES DITA 1.3 Release Management Domain//EN"
+           "../../org.oasis-open.dita.v1_3/dtd/technicalContent/dtd/releaseManagementDomain.ent"
+  >%relmgmt-d-dec;  
+  <!ENTITY % relmgmt-d-metadata_option " | %relmgmt-d-metadata;">
+]]>
+<!-- Fallback values for when programming-domain is excluded -->
+<!ENTITY % relmgmt-d-metadata_option "">
+<!ENTITY relmgmt-d-att "">
+
+
+<![%software-domain;[
+  <!ENTITY % sw-d-dec
+    PUBLIC "-//OASIS//ENTITIES DITA 1.3 Software Domain//EN"
+           "../../org.oasis-open.dita.v1_3/dtd/technicalContent/dtd/softwareDomain.ent"
+  >%sw-d-dec;
+  <!ENTITY % sw-d-keyword_option " | %sw-d-keyword;">
+  <!ENTITY % sw-d-ph_option " | %sw-d-ph;">
+  <!ENTITY % sw-d-pre_option " | %sw-d-pre;">
+]]>
+<!-- Fallback values for when software-domain is excluded -->
+<!ENTITY % sw-d-keyword_option "">
+<!ENTITY % sw-d-ph_option "">
+<!ENTITY % sw-d-pre_option "">
+<!ENTITY sw-d-att "">
+
+
+<![%svg-domain;[
+  <!ENTITY % svg-d-dec
+    PUBLIC "-//OASIS//ENTITIES DITA 1.3 SVG Domain//EN"
+           "../../org.oasis-open.dita.v1_3/dtd/technicalContent/dtd/svgDomain.ent"
+  >%svg-d-dec;  
+  <!ENTITY % svg-d-foreign_option " | %svg-d-foreign;">
+]]>
+<!-- Fallback values for when svg-domain is excluded -->
+<!ENTITY % svg-d-foreign_option "">
+<!ENTITY svg-d-att "">
+
+
+<![%user-interface-domain;[
+  <!ENTITY % ui-d-dec
+    PUBLIC "-//OASIS//ENTITIES DITA 1.3 User Interface Domain//EN"
+           "../../org.oasis-open.dita.v1_3/dtd/technicalContent/dtd/uiDomain.ent"
+  >%ui-d-dec;
+  <!ENTITY % ui-d-keyword_option " | %ui-d-keyword;">
+  <!ENTITY % ui-d-ph_option " | %ui-d-ph;">
+  <!ENTITY % ui-d-pre_option " | %ui-d-pre;">
+]]>
+<!-- Fallback values for when user-interface-domain is excluded -->
+<!ENTITY % ui-d-keyword_option "">
+<!ENTITY % ui-d-ph_option "">
+<!ENTITY % ui-d-pre_option "">
+<!ENTITY ui-d-att "">
+
+
+<![%utility-domain;[
+  <!ENTITY % ut-d-dec
+    PUBLIC "-//OASIS//ENTITIES DITA 1.3 Utilities Domain//EN"
+           "../../org.oasis-open.dita.v1_3/dtd/base/dtd/utilitiesDomain.ent"
+  >%ut-d-dec;
+  <!ENTITY % ut-d-data_option " | %ut-d-data;">
+  <!ENTITY % ut-d-fig_option " | %ut-d-fig;">
+]]>
+<!-- Fallback values for when utility-domain is excluded -->
+<!ENTITY % ut-d-data_option "">
+<!ENTITY % ut-d-fig_option "">
+<!ENTITY ut-d-att "">
+
+
+<![%xml-mention-domain;[
+  <!ENTITY % xml-d-dec
+    PUBLIC "-//OASIS//ENTITIES DITA 1.3 XML Domain//EN"
+           "../../org.oasis-open.dita.v1_3/dtd/technicalContent/dtd/xmlDomain.ent"
+  >%xml-d-dec;
+  <!ENTITY % xml-d-keyword_option " | %xml-d-keyword;">
+]]>
+<!-- Fallback values for when xml-mention-domain is excluded -->
+<!ENTITY % xml-d-keyword_option "">
+<!ENTITY xml-d-att "">
+
+<!-- ============================================================= -->
+<!--             DOMAIN ATTRIBUTES DECLARATIONS                    -->
+<!-- ============================================================= -->
+
+<!ENTITY % deliveryTargetAtt-d-dec
+  PUBLIC "-//OASIS//ENTITIES DITA 1.3 Delivery Target Attribute Domain//EN"
+         "../../base/dtd/deliveryTargetAttDomain.ent"
+>%deliveryTargetAtt-d-dec;
+
+<!-- ============================================================= -->
+<!--                    DOMAIN EXTENSIONS                          -->
+<!-- ============================================================= -->
+<!--                    One for each extended base element, with
+                        the name of the domain(s) in which the
+                        extension was declared                     -->
+
+<!ENTITY % index-base   "index-base
+                         %indexing-d-index-base_option;
+                        ">
+<!ENTITY % note         "note
+                         %hazard-d-note_option;
+                        ">
+<!ENTITY % ph           "ph 
+                         %hi-d-ph_option;
+                         %pr-d-ph_option;
+                         %sw-d-ph_option;
+                         %ui-d-ph_option;
+                         %equation-d-ph_option;
+                        ">
+<!ENTITY % fig          "fig
+                         %ut-d-fig_option;
+                         %pr-d-fig_option;
+                         %equation-d-fig_option;
+                        ">
+<!ENTITY % data         "data
+                         %ut-d-data_option;
+                        ">
+<!ENTITY % term         "term
+                         %abbrev-d-term_option;
+                        ">
+<!ENTITY % keyword      "keyword
+                         %markup-d-keyword_option;
+                         %pr-d-keyword_option;
+                         %sw-d-keyword_option;
+                         %ui-d-keyword_option;
+                         %xml-d-keyword_option;
+                        ">
+<!ENTITY % pre          "pre
+                         %pr-d-pre_option;
+                         %sw-d-pre_option;
+                         %ui-d-pre_option;
+                        ">
+<!ENTITY % dl           "dl
+                         %pr-d-dl_option;
+                        ">
+<!ENTITY % metadata     "metadata
+                         %relmgmt-d-metadata_option;
+                        ">
+<!ENTITY % foreign      "foreign
+                         %svg-d-foreign_option;
+                         %mathml-d-foreign_option;
+                        ">
+<!ENTITY % div          "div
+                         %equation-d-div_option;
+                        ">
+
+<!-- ============================================================= -->
+<!--                    DOMAIN ATTRIBUTE EXTENSIONS                -->
+<!-- ============================================================= -->
+
+<!ENTITY % props-attribute-extensions
+  "%deliveryTargetAtt-d-attribute;"
+>
+<!ENTITY % base-attribute-extensions
+  ""
+>
