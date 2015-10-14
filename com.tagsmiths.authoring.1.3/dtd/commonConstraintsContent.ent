@@ -1,9 +1,3 @@
-<![%noDataConstraintSetting;[
-  <!ENTITY % noData-data-c-def  
-    PUBLIC "-//Tagsmiths//ELEMENTS DITA 1.3 No Data Constraint//EN" 
-    "noDataConstraint.ent"
-  >%noData-data-c-def;
-]]>
 <![%simpleDdConstraintSetting;[
   <!ENTITY % simpleDdConstraint-c-def
     PUBLIC "-//Tagsmiths//ELEMENTS DITA 1.3 Simple Dd Constraint//EN"

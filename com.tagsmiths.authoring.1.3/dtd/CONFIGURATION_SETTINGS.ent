@@ -116,9 +116,6 @@ PUBLIC "-//Tagsmiths//ENTITIES DITA Configuration Settings//EN"
 
 <!-- COMMON ELEMENTS -->
 
-<!ENTITY % noDataConstraintSetting "INCLUDE">
-<!--<!ENTITY % noDataConstraintSetting "IGNORE">-->
-
 <!ENTITY % simpleAbstractConstraintSetting "INCLUDE">
 <!--<!ENTITY % simpleAbstractConstraintSetting "IGNORE">-->
 

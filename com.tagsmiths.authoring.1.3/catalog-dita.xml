@@ -51,8 +51,6 @@
 
 
   <!-- Common constraint modules -->
-  <public publicId="-//Tagsmiths//ELEMENTS DITA 1.3 No Data Constraint//EN"
-    uri="dtd/noDataConstraint.ent"/>
   <public publicId="-//Tagsmiths//ELEMENTS DITA 1.3 Simple Abstract Constraint//EN"
     uri="dtd/simpleAbstractConstraint.mod"/>
   <public publicId="-//Tagsmiths//ELEMENTS DITA 1.3 Simple Dd Constraint//EN"

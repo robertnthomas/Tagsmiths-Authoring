@@ -197,10 +197,7 @@ PUBLIC "-//Tagsmiths//ENTITIES DITA Common Domain Invocation//EN"
 <!ENTITY % xml-d-keyword_option "">
 <!ENTITY xml-d-att "">
 
-<![%noDataConstraintSetting;[
-  <!ENTITY % noDataConstraint_option "EMPTY">
-]]>
-<!ENTITY % noDataConstraint_option "data">
+
 
 
 <!-- ============================================================= -->
@@ -238,7 +235,7 @@ PUBLIC "-//Tagsmiths//ENTITIES DITA Common Domain Invocation//EN"
                          %equation-d-fig_option;
                         ">
                        
-<!ENTITY % data         "%noDataConstraint_option;
+<!ENTITY % data         "data
                          %ut-d-data_option;
                         ">
 <!ENTITY % term         "term
