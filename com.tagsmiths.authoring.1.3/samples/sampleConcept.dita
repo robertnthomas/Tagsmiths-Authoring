@@ -1,8 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE concept PUBLIC "-//Tagsmiths//DTD DITA Authoring Concept//EN" "authoring-concept.dtd">
-<concept id="concept" domains="(topic concept)
-(topic abbrev-d)
-a(props deliveryTarget) 
+<concept id="concept"  domains="(topic concept)
+(topic abbrev-d) a(props deliveryTarget) 
 (topic hazard-d)
 (topic hi-d)
 (topic indexing-d)
@@ -15,6 +14,7 @@ a(props deliveryTarget)
 (topic ui-d)
 (topic ut-d)
 (topic markup-d xml-d)
+(topic noData-data-c)
 (topic simpleAbstract-c)
 (topic simpleDd-c)
 (topic simpleDesc-c)

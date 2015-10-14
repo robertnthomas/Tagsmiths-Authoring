@@ -1,18 +1,67 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE troubleshooting PUBLIC "-//Tagsmiths//DTD DITA Authoring Troubleshooting//EN" "authoring-troubleshooting.dtd">
-<troubleshooting id="sampleTroubleshooting">
+<troubleshooting id="sampleTroubleshooting"
+  domains="(topic task)
+(topic troubleshooting++task)
+(topic task)
+(topic abbrev-d) a(props deliveryTarget) 
+(topic hazard-d)
+(topic hi-d)
+(topic indexing-d)
+(topic markup-d)
+(topic mathml-d)
+(topic pr-d)
+(topic relmgmt-d)
+(topic sw-d)
+(topic svg-d)
+(topic ui-d)
+(topic ut-d)
+(topic markup-d xml-d)
+(topic simpleAbstract-c)
+(topic simpleDd-c)
+(topic simpleDesc-c)
+(topic simpleEntry-c)
+(topic task simpleExample-c)
+(topic simpleItemgroup-c)
+(topic simpleLi-c)
+(topic simpleLinkinfo-c)
+(topic simpleLq-c)
+(topic simpleNote-c)
+(topic simpleP-c)
+(topic simpleSection-c)
+(topic simpleSectiondiv-c)
+(topic simpleStentry-c) 
+(topic task simpleChdesc-c)
+(topic task simpleChdeschd-c)
+(topic task simpleChoice-c)
+(topic task simpleChoption-c)
+(topic task simpleChoptionhd-c)
+(topic task simpleInfo-c)
+(topic task simpleStepresult-c)
+(topic task simpleSteps-informal-c)
+(topic task simpleStepsection-c)
+(topic task simpleSteptroubleshooting-c)
+(topic task simpleStepxmp-c)
+(topic task simpleTutorialinfo-c) 
+(topic troubleshooting simpleRemedy-c)  ">
   <title>Big trouble</title>
   <troublebody>
-    <condition><title>Some condition</title>
+    <condition>
+      <title>Some condition</title>
       <p>Topic paragraph></p>
-      <note></note>
-    </condition><troubleSolution>
-      <cause><title>Some cause</title></cause>
+      <note/>
+    </condition>
+    <troubleSolution>
+      <cause>
+        <title>Some cause</title>
+      </cause>
       <remedy>
         <steps>
           <step>
             <cmd>Do this</cmd>
-            <info><p>Do it to it.</p></info>
+            <info>
+              <p>Do it to it.</p>
+            </info>
           </step>
         </steps>
       </remedy>
