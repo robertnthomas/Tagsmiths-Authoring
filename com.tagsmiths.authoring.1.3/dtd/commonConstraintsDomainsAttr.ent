@@ -1,4 +1,7 @@
 <!-- CONDITIONAL ASSIGNMENTS activated from ConfigurationSettings.ent -->
+<![%noDataConstraintSetting;[
+  <!ENTITY % noData-constraints_option "&noData-constraints;">
+]]>
 <![%simpleAbstractConstraintSetting;[
   <!ENTITY % simpleAbstract-constraints_option "&simpleAbstract-constraints;">
 ]]>
@@ -43,6 +46,7 @@
 ]]>
 
 <!-- FALLBACK ASSIGNMENTS -->
+<!ENTITY % noData-constraints_option "">
 <!ENTITY % simpleAbstract-constraints_option "">
 <!ENTITY % simpleDd-constraints_option "">
 <!ENTITY % simpleDesc-constraints_option "">
@@ -60,6 +64,7 @@
 
 <!-- DOMAINS ATTRIBUTE VALUE -->
 <!ENTITY % commonConstraintsDomainsAttr "
+%noData-constraints_option;
 %simpleAbstract-constraints_option;
 %simpleDd-constraints_option;
 %simpleDesc-constraints_option;

@@ -25,7 +25,7 @@
 
 
   <!-- Configuration Settings -->  
-  <public publicId="-//Tagsmiths//ENTITIES DITA Configuration Settings//EN" uri="dtd/ConfigurationSettings.ent"/>
+  <public publicId="-//Tagsmiths//ENTITIES DITA Configuration Settings//EN" uri="dtd/CONFIGURATION_SETTINGS.ent"/>
 
   <!-- Constraint packages -->
   <public publicId="-//Tagsmiths//ENTITIES DITA Common Domain Declarations//EN" uri="dtd/commonDomainDeclarations.ent"/>
@@ -51,6 +51,8 @@
 
 
   <!-- Common constraint modules -->
+  <public publicId="-//Tagsmiths//ELEMENTS DITA 1.3 No Data Constraint//EN"
+    uri="dtd/noDataConstraint.ent"/>
   <public publicId="-//Tagsmiths//ELEMENTS DITA 1.3 Simple Abstract Constraint//EN"
     uri="dtd/simpleAbstractConstraint.mod"/>
   <public publicId="-//Tagsmiths//ELEMENTS DITA 1.3 Simple Dd Constraint//EN"
@@ -79,6 +81,20 @@
     uri="dtd/simpleSectiondivConstraint.mod"/>
   <public publicId="-//Tagsmiths//ELEMENTS DITA 1.3 Simple Stentry Constraint//EN"
     uri="dtd/simpleStentryConstraint.mod"/>
+
+  <!-- Glossentry constraint modules -->
+  <public publicId="-//Tagsmiths//ELEMENTS DITA 1.3 Simple Glossdef Constraint//EN"
+    uri="dtd/simpleGlossdefConstraint.mod"/>
+
+  <!-- Reference constraint modules -->
+  <public publicId="-//Tagsmiths//ELEMENTS DITA 1.3 Simple Propdesc Constraint//EN"
+    uri="dtd/simplePropdescConstraint.mod"/>
+  <public publicId="-//Tagsmiths//ELEMENTS DITA 1.3 Simple Propvalue Constraint//EN"
+    uri="dtd/simplePropvalueConstraint.mod"/>
+  <public publicId="-//Tagsmiths//ELEMENTS DITA 1.3 Simple Propvaluehd Constraint//EN"
+    uri="dtd/simplePropvaluehdConstraint.mod"/>
+  <public publicId="-//Tagsmiths//ELEMENTS DITA 1.3 Simple Refsyn Constraint//EN"
+    uri="dtd/simpleRefsynConstraint.mod"/>
 
   <!-- Task constraint modules -->
   <public publicId="-//Tagsmiths//ELEMENTS DITA 1.3 Simple Chdesc Constraint//EN"
@@ -111,24 +127,14 @@
     uri="dtd/simpleSteptroubleshootingConstraint.mod"/>
   <public publicId="-//Tagsmiths//ELEMENTS DITA 1.3 Simple Stepxmp Constraint//EN"
     uri="dtd/simpleStepxmpConstraint.mod"/>
-  <public publicId="-//Tagsmiths//ELEMENTS DITA 1.2 Simple Tasktroubleshooting Constraint//EN"
+  <public publicId="-//Tagsmiths//ELEMENTS DITA 1.3 Simple Tasktroubleshooting Constraint//EN"
     uri="dtd/simpleTasktroubleshootingConstraint.mod"/>
   <public publicId="-//Tagsmiths//ELEMENTS DITA 1.3 Simple Tutorialinfo Constraint//EN"
     uri="dtd/simpleTutorialinfoConstraint.mod"/>
   <public publicId="-//Tagsmiths//ELEMENTS DITA 1.3 Strict Taskbody Constraint//EN"
     uri="dtd/strictTaskbodyConstraint.mod"/>
 
-  <!-- Reference constraint modules -->
-  <public publicId="-//Tagsmiths//ELEMENTS DITA 1.3 Simple Propdesc Constraint//EN"
-    uri="dtd/simplePropdescConstraint.mod"/>
-  <public publicId="-//Tagsmiths//ELEMENTS DITA 1.3 Simple Propvalue Constraint//EN"
-    uri="dtd/simplePropvalueConstraint.mod"/>
-  <public publicId="-//Tagsmiths//ELEMENTS DITA 1.3 Simple Propvaluehd Constraint//EN"
-    uri="dtd/simplePropvaluehdConstraint.mod"/>
-  <public publicId="-//Tagsmiths//ELEMENTS DITA 1.3 Simple Refsyn Constraint//EN"
-    uri="dtd/simpleRefsynConstraint.mod"/>
-
-  <!-- Glossentry constraint modules -->
-  <public publicId="-//Tagsmiths//ELEMENTS DITA 1.3 Simple Glossdef Constraint//EN"
-    uri="dtd/simpleGlossdefConstraint.mod"/>
+  <!-- Troubleshooting constraint modules -->
+  <public publicId="-//Tagsmiths//ELEMENTS DITA 1.3 Simple Remedy Constraint//EN"
+    uri="dtd/simpleRemedyConstraint.mod"/>
 </catalog>
