@@ -1,0 +1,14 @@
+com.sophos.tocjs/
+org.dita.base/
+org.dita.docbook/
+org.dita.eclipsecontent/
+org.dita.eclipsehelp/
+org.dita.htmlhelp/
+org.dita.javahelp/
+org.dita.odt/
+org.dita.pdf2/
+org.dita.specialization.dita11/
+org.dita.specialization.eclipsemap/
+org.dita.troff/
+org.dita.wordrtf/
+org.dita.xhtml/

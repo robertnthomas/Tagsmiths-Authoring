@@ -1,3 +1,10 @@
+<![%simpleRefbodyConstraintSetting;[
+  <!ENTITY % simpleRefbodyConstraint-c-def
+    PUBLIC "-//Tagsmiths//ELEMENTS DITA 1.3 Simple Refbody Constraint//EN"
+    "simpleRefbodyConstraint.mod"
+  >%simpleRefbodyConstraint-c-def;
+]]>
+
 <![%simplePropdescConstraintSetting;[
   <!ENTITY % simplePropdescConstraint-c-def
     PUBLIC "-//Tagsmiths//ELEMENTS DITA 1.3 Simple Propdesc Constraint//EN"

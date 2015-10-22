@@ -153,6 +153,20 @@
 <!ENTITY % linklist    "linklist"                                    >
 <!ENTITY % linkinfo    "linkinfo"                                    >
 <!ENTITY % linkpool    "linkpool"                                    >
+<!--                      elements in reference.mod                -->
+<!ENTITY % reference   "reference"                                   >
+<!ENTITY % refbody     "refbody"                                     >
+<!ENTITY % refbodydiv  "refbodydiv"                                  >
+<!ENTITY % refsyn      "refsyn"                                      >
+<!ENTITY % properties  "properties"                                  >
+<!ENTITY % prophead    "prophead"                                    >
+<!ENTITY % proptypehd  "proptypehd"                                  >
+<!ENTITY % propvaluehd "propvaluehd"                                 >
+<!ENTITY % propdeschd  "propdeschd"                                  >
+<!ENTITY % property    "property"                                    >
+<!ENTITY % proptype    "proptype"                                    >
+<!ENTITY % propvalue   "propvalue"                                   >
+<!ENTITY % propdesc    "propdesc"                                    >
 
 
 <!-- ============================================================= -->

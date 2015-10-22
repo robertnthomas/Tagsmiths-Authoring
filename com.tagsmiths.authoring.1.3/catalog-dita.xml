@@ -89,6 +89,8 @@
     uri="dtd/simpleGlossdefConstraint.mod"/>
 
   <!-- Reference constraint modules -->
+  <public publicId="-//Tagsmiths//ELEMENTS DITA 1.3 Simple Refbody Constraint//EN"
+    uri="dtd/simpleRefbodyConstraint.mod"/>
   <public publicId="-//Tagsmiths//ELEMENTS DITA 1.3 Simple Propdesc Constraint//EN"
     uri="dtd/simplePropdescConstraint.mod"/>
   <public publicId="-//Tagsmiths//ELEMENTS DITA 1.3 Simple Propvalue Constraint//EN"

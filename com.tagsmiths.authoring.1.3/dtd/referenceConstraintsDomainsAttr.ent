@@ -1,4 +1,9 @@
 <!-- CONDITIONAL ASSIGNMENTS activated from ConfigurationSettings.ent -->
+
+<![%simpleRefbodyConstraintSetting;[
+  <!ENTITY % simpleRefbody-constraints_option "&simpleRefbody-constraints;">
+]]>
+
 <![%simplePropdescConstraintSetting;[
   <!ENTITY % simplePropdesc-constraints_option "&simplePropdesc-constraints;">
 ]]>
@@ -8,11 +13,13 @@
 ]]>
 
 <!-- FALLBACK ASSIGNMENTS -->
+<!ENTITY % simpleRefbody-constraints_option "">
 <!ENTITY % simplePropdesc-constraints_option "">
 <!ENTITY % simpleRefsyn-constraints_option "">
 
 <!-- DOMAINS ATTRIBUTE VALUE -->
 <!ENTITY % referenceConstraintsDomainsAttr "
+    %simpleRefbody-constraints_option;
     %simplePropdesc-constraints_option;
     %simpleRefsyn-constraints_option;
 ">

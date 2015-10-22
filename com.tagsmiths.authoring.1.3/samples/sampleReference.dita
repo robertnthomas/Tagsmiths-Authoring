@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE reference PUBLIC "-//Tagsmiths//DTD DITA Authoring Reference//EN" "authoring-reference.dtd">
-<reference id="sampleReference" domains="(topic reference)
+<reference id="sampleReference"  domains="(topic reference)
 (topic abbrev-d) a(props deliveryTarget) 
 (topic hazard-d)
 (topic hi-d)
@@ -28,16 +28,12 @@
 (topic simpleSection-c)
 (topic simpleSectiondiv-c)
 (topic simpleStentry-c) 
-(topic reference simplePropdesc-c)    
-(topic reference simpleRefsyn-c)  ">
+(topic reference simpleRefbody-c)      ">
   <title>Reference title</title>
   <refbody>
     <section>
       <title>Title can only go before paragraphs, lists, and tables</title>
       <p>Concept paragraph</p>
-    </section><properties>
-      <property><propdesc></propdesc></property>
-    </properties>
-    <refsyn></refsyn>
+    </section>
   </refbody>
 </reference>

@@ -50,6 +50,9 @@ PUBLIC "-//Tagsmiths//ENTITIES DITA Configuration Settings//EN"
 <!--<!ENTITY % indexing-domain "IGNORE">-->
 
 <!-- The markup domain calls in: <markupname>                      -->
+<!-- BE CAREFUL!
+     markup-domain must be set to INCLUDE whenever xml-mention-domain
+     is set to INCLUDE.                                            -->
 <!ENTITY % markup-domain "INCLUDE">
 <!--<!ENTITY % markup-domain "IGNORE">-->
 
@@ -96,6 +99,9 @@ PUBLIC "-//Tagsmiths//ENTITIES DITA Configuration Settings//EN"
 <!--<!ENTITY % utility-domain "IGNORE">-->
 
 <!-- The xml-mention domain calls in: -->
+<!-- BE CAREFUL!
+     markup-domain must be set to INCLUDE whenever xml-mention-domain
+     is set to INCLUDE.                                            -->
 <!ENTITY % xml-mention-domain "INCLUDE">
 <!--<!ENTITY % xml-mention-domain "IGNORE">-->
 
@@ -107,11 +113,19 @@ PUBLIC "-//Tagsmiths//ENTITIES DITA Configuration Settings//EN"
 
 <!-- REFERENCE ELEMENTS -->
 
-<!ENTITY % simplePropdescConstraintSetting "INCLUDE">
-<!--<!ENTITY % simplePropdescConstraintSetting "IGNORE">-->
+<!-- BE CAREFUL!
+     When simpleRefbodyConstraintSetting is set to INCLUDE, both
+     simplePropdescConstraintSetting and simpleRefsynConstraintSetting
+     must be set to IGNORE. DTD parsing errors occur if this is
+     not done.                                                     -->     
+<!ENTITY % simpleRefbodyConstraintSetting "INCLUDE">
+<!--<!ENTITY % simpleRefbodyConstraintSetting "IGNORE">-->
 
-<!ENTITY % simpleRefsynConstraintSetting "INCLUDE">
-<!--<!ENTITY % simpleRefsynConstraintSetting "IGNORE">-->
+<!--<!ENTITY % simplePropdescConstraintSetting "INCLUDE">-->
+<!ENTITY % simplePropdescConstraintSetting "IGNORE">
+
+<!--<!ENTITY % simpleRefsynConstraintSetting "INCLUDE">-->
+<!ENTITY % simpleRefsynConstraintSetting "IGNORE">
 
 
 <!-- COMMON ELEMENTS -->
