@@ -31,8 +31,8 @@ PUBLIC "-//Tagsmiths//ENTITIES DITA Configuration Settings//EN"
 
 <!-- The equation domain calls in: <equation-block> <equation-figure>
      <equation-inline> <equation-number>                           -->
-<!--<!ENTITY % equation-domain "INCLUDE">-->
-<!ENTITY % equation-domain "IGNORE">
+<!ENTITY % equation-domain "INCLUDE">
+<!--<!ENTITY % equation-domain "IGNORE">-->
 
 <!-- The hazard-statement domain calls in: <consequence>
      <hazardstatement> <hazardsymbol> <howtoavoid> <messagepanel>
