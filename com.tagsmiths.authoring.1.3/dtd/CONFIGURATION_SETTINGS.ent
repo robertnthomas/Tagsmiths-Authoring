@@ -8,7 +8,6 @@ PUBLIC "-//Tagsmiths//ENTITIES DITA Configuration Settings//EN"
      Delivered as file "ConfigurationSettings.ent"
 -->
 
-
 <!-- This file allows you to quickly add or remove domain
      vocabularies and contraint modules from the shell DTDs. A
      change in setting here will be applied across all of the
@@ -18,8 +17,6 @@ PUBLIC "-//Tagsmiths//ENTITIES DITA Configuration Settings//EN"
      defined in highlight-domain will be removed from each of
      the authoring DTDs.
 -->
-
-
 
 <!-- ============================================================= -->
 <!--                     DOMAIN SETTINGS                           -->
@@ -100,8 +97,11 @@ PUBLIC "-//Tagsmiths//ENTITIES DITA Configuration Settings//EN"
 
 <!-- The xml-mention domain calls in: -->
 <!-- BE CAREFUL!
-     markup-domain must be set to INCLUDE whenever xml-mention-domain
-     is set to INCLUDE.                                            -->
+     markup-domain must be set to INCLUDE whenever
+     xml-mention-domain is set to INCLUDE.                         -->
+<!-- The xml-mention domain call in: <numcharref>,
+     <parameterentity>, <textentity>, <xmlatt>, <xmlelement>,
+     <xmlnsname>, and <xmlpi>                                      -->     
 <!ENTITY % xml-mention-domain "INCLUDE">
 <!--<!ENTITY % xml-mention-domain "IGNORE">-->
 
