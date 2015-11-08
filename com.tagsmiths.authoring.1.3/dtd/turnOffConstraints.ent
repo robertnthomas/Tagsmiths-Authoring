@@ -1,0 +1,61 @@
+<!-- ============================================================= -->
+<!--                    HEADER                                     -->
+<!-- ============================================================= -->
+
+<!-- Refer to this file by the following public identifier or an
+     appropriate system identifier :
+PUBLIC "-//Tagsmiths//ENTITIES DITA Configuration Settings//EN"
+     Delivered as file "ConfigurationSettings.ent"
+-->
+
+<!-- ============================================================= -->
+<!--                 CONSTRAINT SETTINGS                           -->
+<!-- ============================================================= -->
+
+
+<!-- REFERENCE ELEMENTS -->  
+<!ENTITY % simpleRefbodyConstraintSetting "IGNORE">
+<!ENTITY % simplePropdescConstraintSetting "IGNORE">
+<!ENTITY % simpleRefsynConstraintSetting "IGNORE">
+
+
+<!-- COMMON ELEMENTS -->
+<!ENTITY % simpleAbstractConstraintSetting "IGNORE">
+<!ENTITY % simpleDdConstraintSetting "IGNORE">
+<!ENTITY % simpleDescConstraintSetting "IGNORE">
+<!ENTITY % simpleEntryConstraintSetting "IGNORE">
+<!ENTITY % simpleExampleConstraintSetting "IGNORE">
+<!ENTITY % simpleItemgroupConstraintSetting "IGNORE">
+<!ENTITY % simpleLiConstraintSetting "IGNORE">
+<!ENTITY % simpleLinkinfoConstraintSetting "IGNORE">
+<!ENTITY % simpleLqConstraintSetting "IGNORE">
+<!ENTITY % simpleNoteConstraintSetting "IGNORE">
+<!ENTITY % simplePConstraintSetting "IGNORE">
+<!ENTITY % simpleSectionConstraintSetting "IGNORE">
+<!ENTITY % simpleSectiondivConstraintSetting "IGNORE">
+<!ENTITY % simpleStentryConstraintSetting "IGNORE">
+
+
+<!-- TASK ELEMENTS -->
+<!ENTITY % simpleChdescConstraintSetting "IGNORE">
+<!ENTITY % simpleChdeschdConstraintSetting "IGNORE">
+<!ENTITY % simpleChoiceConstraintSetting "IGNORE">
+<!ENTITY % simpleChoptionConstraintSetting "IGNORE">
+<!ENTITY % simpleChoptionhdConstraintSetting "IGNORE">
+<!ENTITY % simpleContextConstraintSetting "IGNORE">
+<!ENTITY % simpleInfoConstraintSetting "IGNORE">
+<!ENTITY % simplePostreqConstraintSetting "IGNORE">
+<!ENTITY % simplePrereqConstraintSetting "IGNORE">
+<!ENTITY % simpleResultConstraintSetting "IGNORE">
+<!ENTITY % simpleStepresultConstraintSetting "IGNORE">
+<!ENTITY % simpleSteps-informalConstraintSetting "IGNORE">
+<!ENTITY % simpleStepsectionConstraintSetting "IGNORE">
+<!ENTITY % simpleSteptroubleshootingConstraintSetting "IGNORE">
+<!ENTITY % simpleStepxmpConstraintSetting "IGNORE">
+<!ENTITY % simpleTasktroubleshootingConstraintSetting "IGNORE">
+<!ENTITY % simpleTutorialinfoConstraintSetting "IGNORE">
+<!ENTITY % strictTaskbodyConstraintSetting "IGNORE">
+
+<!-- TROUBLESHOOTING ELEMENTS -->
+<!ENTITY % simpleRemedyConstraintSetting "IGNORE">
+

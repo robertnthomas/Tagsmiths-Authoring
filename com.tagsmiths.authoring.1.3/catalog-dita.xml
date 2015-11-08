@@ -1,151 +1,155 @@
 <?xml version="1.0" ?>
 <catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="public">
 
-  <public publicId="-//Tagsmiths//DTD DITA Authoring Composite//EN" uri="dtd/authoring-ditabase.dtd"/>
-  <public publicId="-//Tagsmiths//DTD DITA 1.3 Authoring Composite//EN"
-    uri="dtd/authoring-ditabase.dtd"/>
-  <public publicId="-//Tagsmiths//DTD DITA Authoring Concept//EN" uri="dtd/authoring-concept.dtd"/>
-  <public publicId="-//Tagsmiths//DTD DITA 1.3 Authoring Concept//EN"
-    uri="dtd/authoring-concept.dtd"/>
-  <public publicId="-//Tagsmiths//DTD DITA Authoring Glossary Entry//EN"
-    uri="dtd/authoring-glossentry.dtd"/>
-  <public publicId="-//Tagsmiths//DTD DITA 1.3 Authoring Glossary Entry//EN"
-    uri="dtd/authoring-glossentry.dtd"/>
-  <public publicId="-//Tagsmiths//DTD DITA Authoring Reference//EN"
-    uri="dtd/authoring-reference.dtd"/>
-  <public publicId="-//Tagsmiths//DTD DITA 1.3 Authoring Reference//EN"
-    uri="dtd/authoring-reference.dtd"/>
-  <public publicId="-//Tagsmiths//DTD DITA Authoring Strict Task//EN" uri="dtd/authoring-task.dtd"/>
-  <public publicId="-//Tagsmiths//DTD DITA 1.3 Authoring Strict Task//EN"
-    uri="dtd/authoring-task.dtd"/>
-  <public publicId="-//Tagsmiths//DTD DITA Authoring Topic//EN" uri="dtd/authoring-topic.dtd"/>
-  <public publicId="-//Tagsmiths//DTD DITA 1.3 Authoring Topic//EN" uri="dtd/authoring-topic.dtd"/>
-  <public publicId="-//Tagsmiths//DTD DITA Authoring Troubleshooting//EN"
-    uri="dtd/authoring-troubleshooting.dtd"/>
-  <public publicId="-//Tagsmiths//DTD DITA 1.3 Authoring Troubleshooting//EN"
-    uri="dtd/authoring-troubleshooting.dtd"/>
+    <public publicId="-//Tagsmiths//DTD DITA Authoring Composite//EN"
+        uri="dtd/authoring-ditabase.dtd"/>
+    <public publicId="-//Tagsmiths//DTD DITA 1.3 Authoring Composite//EN"
+        uri="dtd/authoring-ditabase.dtd"/>
+    <public publicId="-//Tagsmiths//DTD DITA Authoring Concept//EN" uri="dtd/authoring-concept.dtd"/>
+    <public publicId="-//Tagsmiths//DTD DITA 1.3 Authoring Concept//EN"
+        uri="dtd/authoring-concept.dtd"/>
+    <public publicId="-//Tagsmiths//DTD DITA Authoring Glossary Entry//EN"
+        uri="dtd/authoring-glossentry.dtd"/>
+    <public publicId="-//Tagsmiths//DTD DITA 1.3 Authoring Glossary Entry//EN"
+        uri="dtd/authoring-glossentry.dtd"/>
+    <public publicId="-//Tagsmiths//DTD DITA Authoring Reference//EN"
+        uri="dtd/authoring-reference.dtd"/>
+    <public publicId="-//Tagsmiths//DTD DITA 1.3 Authoring Reference//EN"
+        uri="dtd/authoring-reference.dtd"/>
+    <public publicId="-//Tagsmiths//DTD DITA Authoring Strict Task//EN" uri="dtd/authoring-task.dtd"/>
+    <public publicId="-//Tagsmiths//DTD DITA 1.3 Authoring Strict Task//EN"
+        uri="dtd/authoring-task.dtd"/>
+    <public publicId="-//Tagsmiths//DTD DITA Authoring Topic//EN" uri="dtd/authoring-topic.dtd"/>
+    <public publicId="-//Tagsmiths//DTD DITA 1.3 Authoring Topic//EN" uri="dtd/authoring-topic.dtd"/>
+    <public publicId="-//Tagsmiths//DTD DITA Authoring Troubleshooting//EN"
+        uri="dtd/authoring-troubleshooting.dtd"/>
+    <public publicId="-//Tagsmiths//DTD DITA 1.3 Authoring Troubleshooting//EN"
+        uri="dtd/authoring-troubleshooting.dtd"/>
 
 
-  <public publicId="-//Tagsmiths//DTD DITA Authoring 1.3 Map//EN" uri="dtd/authoring-map.dtd"/>
-  <public publicId="-//Tagsmiths//DTD DITA Authoring Map//EN" uri="dtd/authoring-map.dtd"/>
-  <public publicId="-//Tagsmiths//DTD DITA Authoring 1.3 BookMap//EN" uri="dtd/authoring-bookmap.dtd"/>
-  <public publicId="-//Tagsmiths//DTD DITA Authoring BookMap//EN" uri="dtd/authoring-bookmap.dtd"/>
+    <public publicId="-//Tagsmiths//DTD DITA Authoring 1.3 Map//EN" uri="dtd/authoring-map.dtd"/>
+    <public publicId="-//Tagsmiths//DTD DITA Authoring Map//EN" uri="dtd/authoring-map.dtd"/>
+    <public publicId="-//Tagsmiths//DTD DITA Authoring 1.3 BookMap//EN"
+        uri="dtd/authoring-bookmap.dtd"/>
+    <public publicId="-//Tagsmiths//DTD DITA Authoring BookMap//EN" uri="dtd/authoring-bookmap.dtd"/>
 
 
-  <!-- Configuration Settings -->
-  <public publicId="-//Tagsmiths//ENTITIES DITA Configuration Settings//EN"
-    uri="dtd/CONFIGURATION_SETTINGS.ent"/>
+    <!-- Configuration Settings -->
+    <public publicId="-//Tagsmiths//ENTITIES DITA Configuration Settings//EN"
+        uri="dtd/CONFIGURATION_SETTINGS.ent"/>
+    <public publicId="-//Tagsmiths//ENTITIES DITA Turn Off Constraints//EN"
+        uri="dtd/turnOffConstraints.ent"/>
 
-  <!-- Constraint packages -->
-  <public publicId="-//Tagsmiths//ENTITIES DITA Common Domain Declarations//EN"
-    uri="dtd/commonDomainDeclarations.ent"/>
-  <public publicId="-//Tagsmiths//ENTITIES DITA Common Domain Integration//EN"
-    uri="dtd/commonDomainIntegration.ent"/>
-  <public publicId="-//Tagsmiths//ENTITIES DITA Common Element Sets//EN"
-    uri="dtd/commonElementSets.ent"/>
-  <public publicId="-//Tagsmiths//ENTITIES DITA Common Constraints Content//EN"
-    uri="dtd/commonConstraintsContent.ent"/>
-  <public publicId="-//Tagsmiths//ENTITIES DITA Common Constraints Domains Attribute//EN"
-    uri="dtd/commonConstraintsDomainsAttr.ent"/>
-  <public publicId="-//Tagsmiths//ENTITIES DITA Reference Constraints Content//EN"
-    uri="dtd/referenceConstraintsContent.ent"/>
-  <public publicId="-//Tagsmiths//ENTITIES DITA Reference Constraints Domains Attribute//EN"
-    uri="dtd/referenceConstraintsDomainsAttr.ent"/>
-  <public publicId="-//Tagsmiths//ENTITIES DITA Task Constraints Content//EN"
-    uri="dtd/taskConstraintsContent.ent"/>
-  <public publicId="-//Tagsmiths//ENTITIES DITA Task Constraints Domains Attribute//EN"
-    uri="dtd/taskConstraintsDomainsAttr.ent"/>
-  <public publicId="-//Tagsmiths//ENTITIES DITA Troubleshooting Constraints Content//EN"
-    uri="dtd/troubleshootingConstraintsContent.ent"/>
-  <public publicId="-//Tagsmiths//ENTITIES DITA Troubleshooting Constraints Domains Attribute//EN"
-    uri="dtd/troubleshootingConstraintsDomainsAttr.ent"/>
+    <!-- Constraint packages -->
+    <public publicId="-//Tagsmiths//ENTITIES DITA Common Domain Declarations//EN"
+        uri="dtd/commonDomainDeclarations.ent"/>
+    <public publicId="-//Tagsmiths//ENTITIES DITA Common Domain Integration//EN"
+        uri="dtd/commonDomainIntegration.ent"/>
+    <public publicId="-//Tagsmiths//ENTITIES DITA Common Element Sets//EN"
+        uri="dtd/commonElementSets.ent"/>
+    <public publicId="-//Tagsmiths//ENTITIES DITA Common Constraints Content//EN"
+        uri="dtd/commonConstraintsContent.ent"/>
+    <public publicId="-//Tagsmiths//ENTITIES DITA Common Constraints Domains Attribute//EN"
+        uri="dtd/commonConstraintsDomainsAttr.ent"/>
+    <public publicId="-//Tagsmiths//ENTITIES DITA Reference Constraints Content//EN"
+        uri="dtd/referenceConstraintsContent.ent"/>
+    <public publicId="-//Tagsmiths//ENTITIES DITA Reference Constraints Domains Attribute//EN"
+        uri="dtd/referenceConstraintsDomainsAttr.ent"/>
+    <public publicId="-//Tagsmiths//ENTITIES DITA Task Constraints Content//EN"
+        uri="dtd/taskConstraintsContent.ent"/>
+    <public publicId="-//Tagsmiths//ENTITIES DITA Task Constraints Domains Attribute//EN"
+        uri="dtd/taskConstraintsDomainsAttr.ent"/>
+    <public publicId="-//Tagsmiths//ENTITIES DITA Troubleshooting Constraints Content//EN"
+        uri="dtd/troubleshootingConstraintsContent.ent"/>
+    <public publicId="-//Tagsmiths//ENTITIES DITA Troubleshooting Constraints Domains Attribute//EN"
+        uri="dtd/troubleshootingConstraintsDomainsAttr.ent"/>
 
 
-  <!-- Common constraint modules -->
-  <public publicId="-//Tagsmiths//ELEMENTS DITA 1.3 Simple Abstract Constraint//EN"
-    uri="dtd/simpleAbstractConstraint.mod"/>
-  <public publicId="-//Tagsmiths//ELEMENTS DITA 1.3 Simple Dd Constraint//EN"
-    uri="dtd/simpleDdConstraint.mod"/>
-  <public publicId="-//Tagsmiths//ELEMENTS DITA 1.3 Simple Desc Constraint//EN"
-    uri="dtd/simpleDescConstraint.mod"/>
-  <public publicId="-//Tagsmiths//ELEMENTS DITA 1.3 Simple Entry Constraint//EN"
-    uri="dtd/simpleEntryConstraint.mod"/>
-  <public publicId="-//Tagsmiths//ELEMENTS DITA 1.3 Simple Example Constraint//EN"
-    uri="dtd/simpleExampleConstraint.mod"/>
-  <public publicId="-//Tagsmiths//ELEMENTS DITA 1.3 Simple Itemgroup Constraint//EN"
-    uri="dtd/simpleItemgroupConstraint.mod"/>
-  <public publicId="-//Tagsmiths//ELEMENTS DITA 1.3 Simple Li Constraint//EN"
-    uri="dtd/simpleLiConstraint.mod"/>
-  <public publicId="-//Tagsmiths//ELEMENTS DITA 1.3 Simple Linkinfo Constraint//EN"
-    uri="dtd/simpleLinkinfoConstraint.mod"/>
-  <public publicId="-//Tagsmiths//ELEMENTS DITA 1.3 Simple Lq Constraint//EN"
-    uri="dtd/simpleLqConstraint.mod"/>
-  <public publicId="-//Tagsmiths//ELEMENTS DITA 1.3 Simple Note Constraint//EN"
-    uri="dtd/simpleNoteConstraint.mod"/>
-  <public publicId="-//Tagsmiths//ELEMENTS DITA 1.3 Simple P Constraint//EN"
-    uri="dtd/simplePConstraint.mod"/>
-  <public publicId="-//Tagsmiths//ELEMENTS DITA 1.3 Simple Section Constraint//EN"
-    uri="dtd/simpleSectionConstraint.mod"/>
-  <public publicId="-//Tagsmiths//ELEMENTS DITA 1.3 Simple Sectiondiv Constraint//EN"
-    uri="dtd/simpleSectiondivConstraint.mod"/>
-  <public publicId="-//Tagsmiths//ELEMENTS DITA 1.3 Simple Stentry Constraint//EN"
-    uri="dtd/simpleStentryConstraint.mod"/>
+    <!-- Common constraint modules -->
+    <public publicId="-//Tagsmiths//ELEMENTS DITA 1.3 Simple Abstract Constraint//EN"
+        uri="dtd/simpleAbstractConstraint.mod"/>
+    <public publicId="-//Tagsmiths//ELEMENTS DITA 1.3 Simple Dd Constraint//EN"
+        uri="dtd/simpleDdConstraint.mod"/>
+    <public publicId="-//Tagsmiths//ELEMENTS DITA 1.3 Simple Desc Constraint//EN"
+        uri="dtd/simpleDescConstraint.mod"/>
+    <public publicId="-//Tagsmiths//ELEMENTS DITA 1.3 Simple Entry Constraint//EN"
+        uri="dtd/simpleEntryConstraint.mod"/>
+    <public publicId="-//Tagsmiths//ELEMENTS DITA 1.3 Simple Example Constraint//EN"
+        uri="dtd/simpleExampleConstraint.mod"/>
+    <public publicId="-//Tagsmiths//ELEMENTS DITA 1.3 Simple Itemgroup Constraint//EN"
+        uri="dtd/simpleItemgroupConstraint.mod"/>
+    <public publicId="-//Tagsmiths//ELEMENTS DITA 1.3 Simple Li Constraint//EN"
+        uri="dtd/simpleLiConstraint.mod"/>
+    <public publicId="-//Tagsmiths//ELEMENTS DITA 1.3 Simple Linkinfo Constraint//EN"
+        uri="dtd/simpleLinkinfoConstraint.mod"/>
+    <public publicId="-//Tagsmiths//ELEMENTS DITA 1.3 Simple Lq Constraint//EN"
+        uri="dtd/simpleLqConstraint.mod"/>
+    <public publicId="-//Tagsmiths//ELEMENTS DITA 1.3 Simple Note Constraint//EN"
+        uri="dtd/simpleNoteConstraint.mod"/>
+    <public publicId="-//Tagsmiths//ELEMENTS DITA 1.3 Simple P Constraint//EN"
+        uri="dtd/simplePConstraint.mod"/>
+    <public publicId="-//Tagsmiths//ELEMENTS DITA 1.3 Simple Section Constraint//EN"
+        uri="dtd/simpleSectionConstraint.mod"/>
+    <public publicId="-//Tagsmiths//ELEMENTS DITA 1.3 Simple Sectiondiv Constraint//EN"
+        uri="dtd/simpleSectiondivConstraint.mod"/>
+    <public publicId="-//Tagsmiths//ELEMENTS DITA 1.3 Simple Stentry Constraint//EN"
+        uri="dtd/simpleStentryConstraint.mod"/>
 
-  <!-- Glossentry constraint modules -->
-  <public publicId="-//Tagsmiths//ELEMENTS DITA 1.3 Simple Glossdef Constraint//EN"
-    uri="dtd/simpleGlossdefConstraint.mod"/>
+    <!-- Glossentry constraint modules -->
+    <public publicId="-//Tagsmiths//ELEMENTS DITA 1.3 Simple Glossdef Constraint//EN"
+        uri="dtd/simpleGlossdefConstraint.mod"/>
 
-  <!-- Reference constraint modules -->
-  <public publicId="-//Tagsmiths//ELEMENTS DITA 1.3 Simple Refbody Constraint//EN"
-    uri="dtd/simpleRefbodyConstraint.mod"/>
-  <public publicId="-//Tagsmiths//ELEMENTS DITA 1.3 Simple Propdesc Constraint//EN"
-    uri="dtd/simplePropdescConstraint.mod"/>
-  <public publicId="-//Tagsmiths//ELEMENTS DITA 1.3 Simple Propvalue Constraint//EN"
-    uri="dtd/simplePropvalueConstraint.mod"/>
-  <public publicId="-//Tagsmiths//ELEMENTS DITA 1.3 Simple Propvaluehd Constraint//EN"
-    uri="dtd/simplePropvaluehdConstraint.mod"/>
-  <public publicId="-//Tagsmiths//ELEMENTS DITA 1.3 Simple Refsyn Constraint//EN"
-    uri="dtd/simpleRefsynConstraint.mod"/>
+    <!-- Reference constraint modules -->
+    <public publicId="-//Tagsmiths//ELEMENTS DITA 1.3 Simple Refbody Constraint//EN"
+        uri="dtd/simpleRefbodyConstraint.mod"/>
+    <public publicId="-//Tagsmiths//ELEMENTS DITA 1.3 Simple Propdesc Constraint//EN"
+        uri="dtd/simplePropdescConstraint.mod"/>
+    <public publicId="-//Tagsmiths//ELEMENTS DITA 1.3 Simple Propvalue Constraint//EN"
+        uri="dtd/simplePropvalueConstraint.mod"/>
+    <public publicId="-//Tagsmiths//ELEMENTS DITA 1.3 Simple Propvaluehd Constraint//EN"
+        uri="dtd/simplePropvaluehdConstraint.mod"/>
+    <public publicId="-//Tagsmiths//ELEMENTS DITA 1.3 Simple Refsyn Constraint//EN"
+        uri="dtd/simpleRefsynConstraint.mod"/>
 
-  <!-- Task constraint modules -->
-  <public publicId="-//Tagsmiths//ELEMENTS DITA 1.3 Simple Chdesc Constraint//EN"
-    uri="dtd/simpleChdescConstraint.mod"/>
-  <public publicId="-//Tagsmiths//ELEMENTS DITA 1.3 Simple Chdeschd Constraint//EN"
-    uri="dtd/simpleChdeschdConstraint.mod"/>
-  <public publicId="-//Tagsmiths//ELEMENTS DITA 1.3 Simple Choice Constraint//EN"
-    uri="dtd/simpleChoiceConstraint.mod"/>
-  <public publicId="-//Tagsmiths//ELEMENTS DITA 1.3 Simple Choption Constraint//EN"
-    uri="dtd/simpleChoptionConstraint.mod"/>
-  <public publicId="-//Tagsmiths//ELEMENTS DITA 1.3 Simple Choptionhd Constraint//EN"
-    uri="dtd/simpleChoptionhdConstraint.mod"/>
-  <public publicId="-//Tagsmiths//ELEMENTS DITA 1.3 Simple Context Constraint//EN"
-    uri="dtd/simpleContextConstraint.mod"/>
-  <public publicId="-//Tagsmiths//ELEMENTS DITA 1.3 Simple Info Constraint//EN"
-    uri="dtd/simpleInfoConstraint.mod"/>
-  <public publicId="-//Tagsmiths//ELEMENTS DITA 1.3 Simple Postreq Constraint//EN"
-    uri="dtd/simplePostreqConstraint.mod"/>
-  <public publicId="-//Tagsmiths//ELEMENTS DITA 1.3 Simple Prereq Constraint//EN"
-    uri="dtd/simplePrereqConstraint.mod"/>
-  <public publicId="-//Tagsmiths//ELEMENTS DITA 1.3 Simple Result Constraint//EN"
-    uri="dtd/simpleResultConstraint.mod"/>
-  <public publicId="-//Tagsmiths//ELEMENTS DITA 1.3 Simple Stepresult Constraint//EN"
-    uri="dtd/simpleStepresultConstraint.mod"/>
-  <public publicId="-//Tagsmiths//ELEMENTS DITA 1.3 Simple Steps-informal Constraint//EN"
-    uri="dtd/simpleSteps-informalConstraint.mod"/>
-  <public publicId="-//Tagsmiths//ELEMENTS DITA 1.3 Simple Stepsection Constraint//EN"
-    uri="dtd/simpleStepsectionConstraint.mod"/>
-  <public publicId="-//Tagsmiths//ELEMENTS DITA 1.3 Simple Steptroubleshooting Constraint//EN"
-    uri="dtd/simpleSteptroubleshootingConstraint.mod"/>
-  <public publicId="-//Tagsmiths//ELEMENTS DITA 1.3 Simple Stepxmp Constraint//EN"
-    uri="dtd/simpleStepxmpConstraint.mod"/>
-  <public publicId="-//Tagsmiths//ELEMENTS DITA 1.3 Simple Tasktroubleshooting Constraint//EN"
-    uri="dtd/simpleTasktroubleshootingConstraint.mod"/>
-  <public publicId="-//Tagsmiths//ELEMENTS DITA 1.3 Simple Tutorialinfo Constraint//EN"
-    uri="dtd/simpleTutorialinfoConstraint.mod"/>
-  <public publicId="-//Tagsmiths//ELEMENTS DITA 1.3 Strict Taskbody Constraint//EN"
-    uri="dtd/strictTaskbodyConstraint.mod"/>
+    <!-- Task constraint modules -->
+    <public publicId="-//Tagsmiths//ELEMENTS DITA 1.3 Simple Chdesc Constraint//EN"
+        uri="dtd/simpleChdescConstraint.mod"/>
+    <public publicId="-//Tagsmiths//ELEMENTS DITA 1.3 Simple Chdeschd Constraint//EN"
+        uri="dtd/simpleChdeschdConstraint.mod"/>
+    <public publicId="-//Tagsmiths//ELEMENTS DITA 1.3 Simple Choice Constraint//EN"
+        uri="dtd/simpleChoiceConstraint.mod"/>
+    <public publicId="-//Tagsmiths//ELEMENTS DITA 1.3 Simple Choption Constraint//EN"
+        uri="dtd/simpleChoptionConstraint.mod"/>
+    <public publicId="-//Tagsmiths//ELEMENTS DITA 1.3 Simple Choptionhd Constraint//EN"
+        uri="dtd/simpleChoptionhdConstraint.mod"/>
+    <public publicId="-//Tagsmiths//ELEMENTS DITA 1.3 Simple Context Constraint//EN"
+        uri="dtd/simpleContextConstraint.mod"/>
+    <public publicId="-//Tagsmiths//ELEMENTS DITA 1.3 Simple Info Constraint//EN"
+        uri="dtd/simpleInfoConstraint.mod"/>
+    <public publicId="-//Tagsmiths//ELEMENTS DITA 1.3 Simple Postreq Constraint//EN"
+        uri="dtd/simplePostreqConstraint.mod"/>
+    <public publicId="-//Tagsmiths//ELEMENTS DITA 1.3 Simple Prereq Constraint//EN"
+        uri="dtd/simplePrereqConstraint.mod"/>
+    <public publicId="-//Tagsmiths//ELEMENTS DITA 1.3 Simple Result Constraint//EN"
+        uri="dtd/simpleResultConstraint.mod"/>
+    <public publicId="-//Tagsmiths//ELEMENTS DITA 1.3 Simple Stepresult Constraint//EN"
+        uri="dtd/simpleStepresultConstraint.mod"/>
+    <public publicId="-//Tagsmiths//ELEMENTS DITA 1.3 Simple Steps-informal Constraint//EN"
+        uri="dtd/simpleSteps-informalConstraint.mod"/>
+    <public publicId="-//Tagsmiths//ELEMENTS DITA 1.3 Simple Stepsection Constraint//EN"
+        uri="dtd/simpleStepsectionConstraint.mod"/>
+    <public publicId="-//Tagsmiths//ELEMENTS DITA 1.3 Simple Steptroubleshooting Constraint//EN"
+        uri="dtd/simpleSteptroubleshootingConstraint.mod"/>
+    <public publicId="-//Tagsmiths//ELEMENTS DITA 1.3 Simple Stepxmp Constraint//EN"
+        uri="dtd/simpleStepxmpConstraint.mod"/>
+    <public publicId="-//Tagsmiths//ELEMENTS DITA 1.3 Simple Tasktroubleshooting Constraint//EN"
+        uri="dtd/simpleTasktroubleshootingConstraint.mod"/>
+    <public publicId="-//Tagsmiths//ELEMENTS DITA 1.3 Simple Tutorialinfo Constraint//EN"
+        uri="dtd/simpleTutorialinfoConstraint.mod"/>
+    <public publicId="-//Tagsmiths//ELEMENTS DITA 1.3 Strict Taskbody Constraint//EN"
+        uri="dtd/strictTaskbodyConstraint.mod"/>
 
-  <!-- Troubleshooting constraint modules -->
-  <public publicId="-//Tagsmiths//ELEMENTS DITA 1.3 Simple Remedy Constraint//EN"
-    uri="dtd/simpleRemedyConstraint.mod"/>
+    <!-- Troubleshooting constraint modules -->
+    <public publicId="-//Tagsmiths//ELEMENTS DITA 1.3 Simple Remedy Constraint//EN"
+        uri="dtd/simpleRemedyConstraint.mod"/>
 </catalog>
