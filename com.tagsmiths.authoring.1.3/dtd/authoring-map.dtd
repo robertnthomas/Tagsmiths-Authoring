@@ -30,7 +30,9 @@
 <!-- ============================================================= -->
 <!--                   CONFIGURATION SETTINGS                      -->
 <!-- ============================================================= -->
-<!-- TODO: Shut off constraint options that don't apply to maps. -->
+<!-- TODO: Shut off constraint options that don't apply to maps.
+Turn off equation-domain.
+-->
 <!ENTITY % configuration-settings
 PUBLIC "-//Tagsmiths//ENTITIES DITA Configuration Settings//EN"
        "ConfigurationSettings.ent"
@@ -119,38 +121,6 @@ PUBLIC "-//Tagsmiths//ENTITIES DITA Common Domain Declarations//EN"
 %commonConstraintsDomainsAttr;
 "
 >
-<!-- ============================================================= -->
-<!--     EARLY READING OF ELEMENT NAME AND ELEMENT SET ENTITIES    -->
-<!-- ============================================================= -->
-<!-- Tagsmiths:
-       This deviation from the standard specialization template was
-       needed so that the constraint modules can use element-set
-       definitions. Currrent DTD architecture (December 2009) does
-       not declare these definitions until after the constraint
-       modules have been integrated.
-
-       commonElementSets.ent contains all of the element set entites
-       defineed in commonElements.mod, plus all of the element name
-       entities defined in commonElements.ent and topicDefn.ent.
-       They have been aggregated in commonElementSets.ent without
-       modification.
-
-       Admittedly, this is a kludge. However, it is less confusing
-       than the chaos that would ensue if the names and element sets
-       were called into each topic type.
--->
-<!ENTITY % commonElementSets
-PUBLIC "-//Tagsmiths//ENTITIES DITA Common Element Sets" "commonElementSets.ent"
->%commonElementSets;
-
-<!-- ============================================================= -->
-<!--                    CONTENT CONSTRAINT INTEGRATION             -->
-<!-- ============================================================= -->
-<!-- Tagsmiths: Call in entities for common contraints content     -->
-<!ENTITY % invokeCommonContstraintsContent
-   PUBLIC "-//Tagsmiths//ENTITIES DITA Common Constraints Content//EN"
-   "commonConstraintsContent.ent"
->%invokeCommonContstraintsContent;
 
 
 <!-- ============================================================= -->
@@ -165,16 +135,17 @@ PUBLIC "-//Tagsmiths//ENTITIES DITA Common Element Sets" "commonElementSets.ent"
 <!-- ============================================================= -->
 <!--                    DOMAIN ELEMENT INTEGRATION                 -->
 <!-- ============================================================= -->
+<!-- Tagsmiths: Call in  common domain element integration         -->
+
+<!ENTITY % invokeCommonDomainIntegration
+   PUBLIC "-//Tagsmiths//ENTITIES DITA Common Domain Integration//EN"
+   "commonDomainIntegration.ent"
+>%invokeCommonDomainIntegration;
 
 <!ENTITY % mapgroup-d-def
   PUBLIC "-//OASIS//ELEMENTS DITA 1.3 Map Group Domain//EN"
          "../../base/dtd/mapGroup.mod"
 >%mapgroup-d-def;
-
-<!ENTITY % abbrev-d-def
-  PUBLIC "-//OASIS//ELEMENTS DITA 1.3 Abbreviated Form Domain//EN"
-         "abbreviateDomain.mod"
->%abbrev-d-def;
 
 <!ENTITY % delay-d-def
   PUBLIC "-//OASIS//ELEMENTS DITA 1.3 Delayed Resolution Domain//EN"
@@ -190,21 +161,6 @@ PUBLIC "-//Tagsmiths//ENTITIES DITA Common Element Sets" "commonElementSets.ent"
   PUBLIC "-//OASIS//ELEMENTS DITA 1.3 Glossary Reference Domain//EN"
          "glossrefDomain.mod"
 >%glossref-d-def;
-
-<!ENTITY % hazard-d-def
-  PUBLIC "-//OASIS//ELEMENTS DITA 1.3 Hazard Statement Domain//EN"
-         "../../base/dtd/hazardstatementDomain.mod"
->%hazard-d-def;
-
-<!ENTITY % hi-d-def
-  PUBLIC "-//OASIS//ELEMENTS DITA 1.3 Highlight Domain//EN"
-         "../../base/dtd/highlightDomain.mod"
->%hi-d-def;
-
-<!ENTITY % indexing-d-def
-  PUBLIC "-//OASIS//ELEMENTS DITA 1.3 Indexing Domain//EN"
-         "../../base/dtd/indexingDomain.mod"
->%indexing-d-def;
 
 <!ENTITY % markup-d-def
   PUBLIC "-//OASIS//ELEMENTS DITA 1.3 Markup Domain//EN"
