@@ -2,48 +2,48 @@
 <!-- ============================================================= -->
 <!--                    HEADER                                     -->
 <!-- ============================================================= -->
-<!-- Darwin Information Typing Architecture (DITA) Version 1.3     -->
-<!-- ^SPEC_RELEASE_TYPE^                                           -->
-<!-- ^DOC_APPROVAL_DATE^                                           -->
-<!-- Copyright (c) OASIS Open 2015. All rights reserved.           -->
-<!-- Source: ^GRAMMAR_FILE_ZIP_URL^                                -->
-<!--                                                               -->
-<!-- ============================================================= -->
-<!--  MODULE:    DITA Bookmap                                      -->
+<!--  MODULE:    DITA Authoring Bookmap                            -->
 <!--  VERSION:   1.3                                               -->
-<!--  DATE:      March 2014                                        -->
+<!--  DATE:      November 2015                                     -->
 <!--                                                               -->
 <!-- ============================================================= -->
 <!-- ============================================================= -->
 <!--                    PUBLIC DOCUMENT TYPE DEFINITION            -->
-<!--                    TYPICAL INVOCATION                         -->
+<!--                        TYPICAL INVOCATION                     -->
 <!--                                                               -->
-<!--  Refer to this file by the following public identifier or an  -->
-<!--       appropriate system identifier                           -->
-<!-- PUBLIC "-//OASIS//DTD DITA BookMap//EN"                       -->
-<!--       Delivered as file "bookmap.dtd"                              -->
-<!-- The public ID above refers to the latest version of this DTD. -->
-<!--      To refer to this specific version, you may use this value: -->
-<!-- PUBLIC "-//OASIS//DTD DITA 1.2  BookMap//EN"                        -->
+<!-- Refer to this file by the following public identifier or an   -->
+<!--      appropriate system identifier:                           -->
+<!-- PUBLIC "-//Tagsmiths//DTD DITA Authoring Bookmap//EN"
+"authoring-bookmap.dtd"                                            -->
+<!--                                                               -->
+<!--                                                               -->
 <!-- ============================================================= -->
-<!-- SYSTEM:     Darwin Information Typing Architecture (DITA)     -->
+<!--                   DERIVED FROM                                -->
 <!--                                                               -->
-<!-- PURPOSE:    DTD to describe DITA Book Maps                    -->
+<!--  MODULE:    DITA MAP Shell                                    -->
+<!--  VERSION:   1.3                                               -->
+<!--  DATE:      March 2014                                        -->
 <!--                                                               -->
-<!-- ORIGINAL CREATION DATE:                                       -->
-<!--             March 2004                                        -->
+<!-- Darwin Information Typing Architecture (DITA) Version 1.3     -->
+<!-- Copyright (c) OASIS Open 2015. All rights reserved.           -->
 <!--                                                               -->
-<!--             (C) Copyright OASIS Open 2006, 2014               -->
-<!--             (C) Copyright IBM Corporation 2004, 2005.         -->
-<!--             All Rights Reserved.                              -->
-<!--                                                               -->
-<!--  UPDATES:                                                     -->
-<!--    2008.02.01 RDA: Added reference to bookmap.ent             -->
-<!--    2008.02.12 RDA: Modify imbeds to use specific 1.2 version  -->
-<!--    2008.04.15 RDA: Added delay resolution domain              -->
-<!--    2010.09.21 RDA: Added base and tec. content topic domains  -->
-<!--    2014.03.13 WEK: Updated for DITA 1.3, reimplemented as RNG -->
+
 <!-- ============================================================= -->
+<!--                   CONFIGURATION SETTINGS                      -->
+<!-- ============================================================= -->
+<!ENTITY % equation-domain "IGNORE">
+<!ENTITY % mathml-domain "IGNORE">
+<!ENTITY % svg-domain "IGNORE">
+
+<!ENTITY % turn-off-constraints
+PUBLIC "-//Tagsmiths//ENTITIES DITA Turn Off Constraints//EN"
+       "turnOffConstraints.ent"
+>%turn-off-constraints;
+
+<!ENTITY % configuration-settings
+PUBLIC "-//Tagsmiths//ENTITIES DITA Configuration Settings//EN"
+       "ConfigurationSettings.ent"
+>%configuration-settings;
 
 <!-- ============================================================= -->
 <!--                MAP ENTITY DECLARATIONS                        -->
@@ -67,11 +67,6 @@
          "../../base/dtd/mapGroup.ent"
 >%mapgroup-d-dec;
 
-<!ENTITY % abbrev-d-dec
-  PUBLIC "-//OASIS//ENTITIES DITA 1.3 Abbreviated Form Domain//EN"
-         "../../technicalContent/dtd/abbreviateDomain.ent"
->%abbrev-d-dec;
-
 <!ENTITY % delay-d-dec
   PUBLIC "-//OASIS//ENTITIES DITA 1.3 Delayed Resolution Domain//EN"
          "../../base/dtd/delayResolutionDomain.ent"
@@ -82,60 +77,15 @@
          "../../base/dtd/ditavalrefDomain.ent"
 >%ditavalref-d-dec;
 
-<!ENTITY % hazard-d-dec
-  PUBLIC "-//OASIS//ENTITIES DITA 1.3 Hazard Statement Domain//EN"
-         "../../base/dtd/hazardstatementDomain.ent"
->%hazard-d-dec;
-
-<!ENTITY % hi-d-dec
-  PUBLIC "-//OASIS//ENTITIES DITA 1.3 Highlight Domain//EN"
-         "../../base/dtd/highlightDomain.ent"
->%hi-d-dec;
-
-<!ENTITY % indexing-d-dec
-  PUBLIC "-//OASIS//ENTITIES DITA 1.3 Indexing Domain//EN"
-         "../../base/dtd/indexingDomain.ent"
->%indexing-d-dec;
-
-<!ENTITY % markup-d-dec
-  PUBLIC "-//OASIS//ENTITIES DITA 1.3 Markup Domain//EN"
-         "../../technicalContent/dtd/markupDomain.ent"
->%markup-d-dec;
-
-<!ENTITY % pr-d-dec
-  PUBLIC "-//OASIS//ENTITIES DITA 1.3 Programming Domain//EN"
-         "../../technicalContent/dtd/programmingDomain.ent"
->%pr-d-dec;
-
-<!ENTITY % relmgmt-d-dec
-  PUBLIC "-//OASIS//ENTITIES DITA 1.3 Release Management Domain//EN"
-         "../../technicalContent/dtd/releaseManagementDomain.ent"
->%relmgmt-d-dec;
-
-<!ENTITY % sw-d-dec
-  PUBLIC "-//OASIS//ENTITIES DITA 1.3 Software Domain//EN"
-         "../../technicalContent/dtd/softwareDomain.ent"
->%sw-d-dec;
-
-<!ENTITY % ui-d-dec
-  PUBLIC "-//OASIS//ENTITIES DITA 1.3 User Interface Domain//EN"
-         "../../technicalContent/dtd/uiDomain.ent"
->%ui-d-dec;
-
-<!ENTITY % ut-d-dec
-  PUBLIC "-//OASIS//ENTITIES DITA 1.3 Utilities Domain//EN"
-         "../../base/dtd/utilitiesDomain.ent"
->%ut-d-dec;
-
 <!ENTITY % xnal-d-dec
   PUBLIC "-//OASIS//ENTITIES DITA 1.3 XNAL Domain//EN"
          "../../xnal/dtd/xnalDomain.ent"
 >%xnal-d-dec;
 
-<!ENTITY % xml-d-dec
-  PUBLIC "-//OASIS//ENTITIES DITA 1.3 XML Domain//EN"
-         "../../technicalContent/dtd/xmlDomain.ent"
->%xml-d-dec;
+<!ENTITY % common-domain-declarations
+PUBLIC "-//Tagsmiths//ENTITIES DITA Common Domain Declarations//EN"
+"commonDomainDeclarations.ent"
+>%common-domain-declarations;
 
 <!-- ============================================================= -->
 <!--             DOMAIN ATTRIBUTES DECLARATIONS                    -->
@@ -160,46 +110,6 @@
 <!ENTITY % keywords     "keywords |
                          %delay-d-keywords;
                         ">
-<!ENTITY % index-base   "index-base |
-                         %indexing-d-index-base;
-                        ">
-<!ENTITY % note         "note |
-                         %hazard-d-note;
-                        ">
-<!ENTITY % ph           "ph |
-                         %hi-d-ph; |
-                         %pr-d-ph; |
-                         %sw-d-ph; |
-                         %ui-d-ph;
-                        ">
-<!ENTITY % fig          "fig |
-                         %ut-d-fig; |
-                         %pr-d-fig;
-                        ">
-<!ENTITY % data         "data |
-                         %ut-d-data;
-                        ">
-<!ENTITY % term         "term |
-                         %abbrev-d-term;
-                        ">
-<!ENTITY % keyword      "keyword |
-                         %markup-d-keyword; |
-                         %pr-d-keyword; |
-                         %sw-d-keyword; |
-                         %ui-d-keyword; |
-                         %xml-d-keyword;
-                        ">
-<!ENTITY % pre          "pre |
-                         %pr-d-pre; |
-                         %sw-d-pre; |
-                         %ui-d-pre;
-                        ">
-<!ENTITY % dl           "dl |
-                         %pr-d-dl;
-                        ">
-<!ENTITY % metadata     "metadata |
-                         %relmgmt-d-metadata;
-                        ">
 <!ENTITY % author       "author |
                          %xnal-d-author;
                         ">
@@ -218,26 +128,35 @@
 <!-- ============================================================= -->
 <!--                    DOMAINS ATTRIBUTE OVERRIDE                 -->
 <!-- ============================================================= -->
+<!-- Tagsmiths: Call in entities for common contraint domains
+     attributes
+-->
+
+<!ENTITY % invokeCommonConstraintDomainsAttrEnts
+   PUBLIC "-//Tagsmiths//ENTITIES DITA Common Constraints Domains Attribute//EN"
+   "commonConstraintsDomainsAttr.ent"
+>%invokeCommonConstraintDomainsAttrEnts;
 
 <!ENTITY included-domains
-                          "&mapgroup-d-att;
-                           &bookmap-att;
-                           &abbrev-d-att;
-                           &delay-d-att;
-                           &deliveryTargetAtt-d-att;
-                           &ditavalref-d-att;
-                           &hazard-d-att;
-                           &hi-d-att;
-                           &indexing-d-att;
-                           &markup-d-att;
-                           &pr-d-att;
-                           &relmgmt-d-att;
-                           &sw-d-att;
-                           &ui-d-att;
-                           &ut-d-att;
-                           &xnal-d-att;
-                           &xml-d-att;
-  "
+"&mapgroup-d-att;
+&bookmap-att;
+&abbrev-d-att;
+&delay-d-att;
+&deliveryTargetAtt-d-att;
+&ditavalref-d-att;
+&hazard-d-att;
+&hi-d-att;
+&indexing-d-att;
+&markup-d-att;
+&pr-d-att;
+&relmgmt-d-att;
+&sw-d-att;
+&ui-d-att;
+&ut-d-att;
+&xnal-d-att;
+&xml-d-att;
+%commonConstraintsDomainsAttr;
+"
 >
 
 <!-- ============================================================= -->
@@ -261,16 +180,17 @@
 <!-- ============================================================= -->
 <!--                    DOMAIN ELEMENT INTEGRATION                 -->
 <!-- ============================================================= -->
+<!-- Tagsmiths: Call in  common domain element integration         -->
+
+<!ENTITY % invokeCommonDomainIntegration
+   PUBLIC "-//Tagsmiths//ENTITIES DITA Common Domain Integration//EN"
+   "commonDomainIntegration.ent"
+>%invokeCommonDomainIntegration;
 
 <!ENTITY % mapgroup-d-def
   PUBLIC "-//OASIS//ELEMENTS DITA 1.3 Map Group Domain//EN"
          "../../base/dtd/mapGroup.mod"
 >%mapgroup-d-def;
-
-<!ENTITY % abbrev-d-def
-  PUBLIC "-//OASIS//ELEMENTS DITA 1.3 Abbreviated Form Domain//EN"
-         "../../technicalContent/dtd/abbreviateDomain.mod"
->%abbrev-d-def;
 
 <!ENTITY % delay-d-def
   PUBLIC "-//OASIS//ELEMENTS DITA 1.3 Delayed Resolution Domain//EN"
@@ -282,59 +202,9 @@
          "../../base/dtd/ditavalrefDomain.mod"
 >%ditavalref-d-def;
 
-<!ENTITY % hazard-d-def
-  PUBLIC "-//OASIS//ELEMENTS DITA 1.3 Hazard Statement Domain//EN"
-         "../../base/dtd/hazardstatementDomain.mod"
->%hazard-d-def;
-
-<!ENTITY % hi-d-def
-  PUBLIC "-//OASIS//ELEMENTS DITA 1.3 Highlight Domain//EN"
-         "../../base/dtd/highlightDomain.mod"
->%hi-d-def;
-
-<!ENTITY % indexing-d-def
-  PUBLIC "-//OASIS//ELEMENTS DITA 1.3 Indexing Domain//EN"
-         "../../base/dtd/indexingDomain.mod"
->%indexing-d-def;
-
-<!ENTITY % markup-d-def
-  PUBLIC "-//OASIS//ELEMENTS DITA 1.3 Markup Domain//EN"
-         "../../technicalContent/dtd/markupDomain.mod"
->%markup-d-def;
-
-<!ENTITY % pr-d-def
-  PUBLIC "-//OASIS//ELEMENTS DITA 1.3 Programming Domain//EN"
-         "../../technicalContent/dtd/programmingDomain.mod"
->%pr-d-def;
-
-<!ENTITY % relmgmt-d-def
-  PUBLIC "-//OASIS//ELEMENTS DITA 1.3 Release Management Domain//EN"
-         "../../technicalContent/dtd/releaseManagementDomain.mod"
->%relmgmt-d-def;
-
-<!ENTITY % sw-d-def
-  PUBLIC "-//OASIS//ELEMENTS DITA 1.3 Software Domain//EN"
-         "../../technicalContent/dtd/softwareDomain.mod"
->%sw-d-def;
-
-<!ENTITY % ui-d-def
-  PUBLIC "-//OASIS//ELEMENTS DITA 1.3 User Interface Domain//EN"
-         "../../technicalContent/dtd/uiDomain.mod"
->%ui-d-def;
-
-<!ENTITY % ut-d-def
-  PUBLIC "-//OASIS//ELEMENTS DITA 1.3 Utilities Domain//EN"
-         "../../base/dtd/utilitiesDomain.mod"
->%ut-d-def;
-
 <!ENTITY % xnal-d-def
   PUBLIC "-//OASIS//ELEMENTS DITA 1.3 XNAL Domain//EN"
          "../../xnal/dtd/xnalDomain.mod"
 >%xnal-d-def;
-
-<!ENTITY % xml-d-def
-  PUBLIC "-//OASIS//ELEMENTS DITA 1.3 XML Domain//EN"
-         "../../technicalContent/dtd/xmlDomain.mod"
->%xml-d-def;
 
 <!-- ================= End of DITA Book Map Shell ================= -->

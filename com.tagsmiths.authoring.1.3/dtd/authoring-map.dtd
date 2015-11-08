@@ -30,9 +30,6 @@
 <!-- ============================================================= -->
 <!--                   CONFIGURATION SETTINGS                      -->
 <!-- ============================================================= -->
-<!-- TODO: Shut off constraint options that don't apply to maps.
-Turn off equation-domain.
--->
 <!ENTITY % equation-domain "IGNORE">
 <!ENTITY % mathml-domain "IGNORE">
 <!ENTITY % svg-domain "IGNORE">
