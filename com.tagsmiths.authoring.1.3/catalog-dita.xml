@@ -18,22 +18,29 @@
   <public publicId="-//Tagsmiths//DTD DITA Authoring Strict Task//EN" uri="dtd/authoring-task.dtd"/>
   <public publicId="-//Tagsmiths//DTD DITA 1.3 Authoring Strict Task//EN"
     uri="dtd/authoring-task.dtd"/>
-  <public publicId="-//Tagsmiths//DTD DITA Authoring Topic//EN"
-    uri="dtd/authoring-topic.dtd"/>
-  <public publicId="-//Tagsmiths//DTD DITA 1.3 Authoring Topic//EN"
-    uri="dtd/authoring-topic.dtd"/>
+  <public publicId="-//Tagsmiths//DTD DITA Authoring Topic//EN" uri="dtd/authoring-topic.dtd"/>
+  <public publicId="-//Tagsmiths//DTD DITA 1.3 Authoring Topic//EN" uri="dtd/authoring-topic.dtd"/>
   <public publicId="-//Tagsmiths//DTD DITA Authoring Troubleshooting//EN"
     uri="dtd/authoring-troubleshooting.dtd"/>
   <public publicId="-//Tagsmiths//DTD DITA 1.3 Authoring Troubleshooting//EN"
     uri="dtd/authoring-troubleshooting.dtd"/>
 
 
-  <!-- Configuration Settings -->  
-  <public publicId="-//Tagsmiths//ENTITIES DITA Configuration Settings//EN" uri="dtd/CONFIGURATION_SETTINGS.ent"/>
+  <public publicId="-//Tagsmiths//DTD DITA Authoring 1.3 Map//EN" uri="dtd/authoring-map.dtd"/>
+  <public publicId="-//Tagsmiths//DTD DITA Authoring Map//EN" uri="dtd/authoring-map.dtd"/>
+  <public publicId="-//Tagsmiths//DTD DITA Authoring 1.3 BookMap//EN" uri="dtd/authoring-bookmap.dtd"/>
+  <public publicId="-//Tagsmiths//DTD DITA Authoring BookMap//EN" uri="dtd/authoring-bookmap.dtd"/>
+
+
+  <!-- Configuration Settings -->
+  <public publicId="-//Tagsmiths//ENTITIES DITA Configuration Settings//EN"
+    uri="dtd/CONFIGURATION_SETTINGS.ent"/>
 
   <!-- Constraint packages -->
-  <public publicId="-//Tagsmiths//ENTITIES DITA Common Domain Declarations//EN" uri="dtd/commonDomainDeclarations.ent"/>
-  <public publicId="-//Tagsmiths//ENTITIES DITA Common Domain Integration//EN" uri="dtd/commonDomainIntegration.ent"/>
+  <public publicId="-//Tagsmiths//ENTITIES DITA Common Domain Declarations//EN"
+    uri="dtd/commonDomainDeclarations.ent"/>
+  <public publicId="-//Tagsmiths//ENTITIES DITA Common Domain Integration//EN"
+    uri="dtd/commonDomainIntegration.ent"/>
   <public publicId="-//Tagsmiths//ENTITIES DITA Common Element Sets//EN"
     uri="dtd/commonElementSets.ent"/>
   <public publicId="-//Tagsmiths//ENTITIES DITA Common Constraints Content//EN"
