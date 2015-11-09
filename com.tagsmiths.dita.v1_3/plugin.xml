@@ -3,6 +3,6 @@
   This file is part of the DITA Open Toolkit project.
   See the accompanying license.txt file for applicable licenses.
 -->
-<plugin id="org.oasis-open.dita.v1_3">
+<plugin id="com.tagsmiths.dita.v1_3">
   <feature extension="dita.specialization.catalog.relative" file="catalog.xml"/>
 </plugin>
