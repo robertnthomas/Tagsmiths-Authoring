@@ -264,7 +264,7 @@
       <xs:complexType>
          <xs:complexContent>
             <xs:extension base="searchtitle.class">
-               <xs:attribute ref="class" default="- map/searchtitle "/>
+               <xs:attribute ref="class" default="- topic/searchtitle "/>
             </xs:extension>
          </xs:complexContent>
       </xs:complexType>
@@ -297,7 +297,7 @@
       <xs:complexType>
          <xs:complexContent>
             <xs:extension base="shortdesc.class">
-               <xs:attribute ref="class" default="- map/shortdesc "/>
+               <xs:attribute ref="class" default="- topic/shortdesc "/>
             </xs:extension>
          </xs:complexContent>
       </xs:complexType>
@@ -662,7 +662,7 @@
       <xs:complexType>
          <xs:complexContent>
             <xs:extension base="linktext.class">
-               <xs:attribute ref="class" default="- map/linktext "/>
+               <xs:attribute ref="class" default="- topic/linktext "/>
             </xs:extension>
          </xs:complexContent>
       </xs:complexType>
