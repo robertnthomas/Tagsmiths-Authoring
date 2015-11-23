@@ -11,7 +11,7 @@ paragraph. Consequently, the number of elements an author can
 choose from in section has been reduced from 63 to 32 because
 inline-level elements are no longer available as child elements for
 section. Rest assured that text and each of the excluded inline
-elements can still be entered under ia paragraph in section.
+elements can still be entered under a paragraph in section.
 
 This plugin has also refactored the shell DTDs from the DITA
 technical communications package (concept, glossterm, reference,
@@ -36,14 +36,14 @@ following features:
 
 + Introduced a layer of indirection to domain extension definitions
   so that each domain can be included or excluded from all DTD shells
-  with a single setting in CommonSettings.ent.
+  with a single setting in CONFIGURATION_SETTINGS.ent.
 
 + Allowed the 32 constraint packages in this plugin to be uniformly
   applied to all DTD shells.
 
 + Introduced a layer of indirection to constraint packages so that each
   constraint can be included or excluded from all DTD shells
-  with a single setting in CommonSettings.ent.
+  with a single setting in CONFIGURATION_SETTINGS.ent.
 
 
 INSTALLATION

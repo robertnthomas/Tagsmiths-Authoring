@@ -10,7 +10,7 @@ license as used by the DITA Open Toolkit or with a compatible but
 less restrictive license. Sample materials are either in the public
 domain or are licensed with some form of Creative Commons license.
 
-The general intent for the DITA for Authors projects is that all the
+The general intent for the DITA for Authors project is that all the
 materials may be used as the base for commercial or non-commercial
 derivative works as long as an apppropriate attribution is included
 in any use.
