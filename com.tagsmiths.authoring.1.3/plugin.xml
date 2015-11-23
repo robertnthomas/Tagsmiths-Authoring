@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin id="com.tagsmiths.authoring.1.3">
-  <require plugin="com.tagsmiths.dita.v1_3"/>
+  <!-- com.tagsmiths.dita.v1_3 not required with dita-ot2.2.0 or later. -->
+  <!--<require plugin="com.tagsmiths.dita.v1_3"/>-->
   <feature extension="dita.specialization.catalog.relative" value="catalog-dita.xml" type="file"/>
 </plugin>
