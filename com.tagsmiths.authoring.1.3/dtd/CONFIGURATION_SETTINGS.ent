@@ -11,11 +11,14 @@ PUBLIC "-//Tagsmiths//ENTITIES DITA Configuration Settings//EN"
 <!-- This file allows you to quickly add or remove domain
      vocabularies and contraint modules from the shell DTDs. A
      change in setting here will be applied across all of the
-     authoring DTDs. For example, if you uncomment
-     <!ENTITY % highlight-domain "IGNORE"> and then comment
-     out <!ENTITY % highlight-domain "INCLUDE"> all of the elements
-     defined in highlight-domain will be removed from each of
-     the authoring DTDs.
+     authoring DTDs. Domains and constraints can be included
+     or ignored by setting their values to INLCUDE or IGNORE.
+     For example, if you change:
+     <!ENTITY % highlight-domain "INCLUDE">
+     to:
+     <!ENTITY % highlight-domain "IGNORE">
+     the <b> <i> <sub> <sup> <tt> and <u> elements will be removed
+     from each of the authoring DTDs.
 -->
 
 <!-- ============================================================= -->
@@ -24,38 +27,31 @@ PUBLIC "-//Tagsmiths//ENTITIES DITA Configuration Settings//EN"
 
 <!-- The abbreviated-form domain calls in: <abbreviated-form>      -->
 <!ENTITY % abbreviated-form-domain "INCLUDE">
-<!--<!ENTITY % abbreviated-form-domain "IGNORE">-->
 
 <!-- The equation domain calls in: <equation-block> <equation-figure>
      <equation-inline> <equation-number>                           -->
 <!ENTITY % equation-domain "INCLUDE">
-<!--<!ENTITY % equation-domain "IGNORE">-->
 
 <!-- The hazard-statement domain calls in: <consequence>
      <hazardstatement> <hazardsymbol> <howtoavoid> <messagepanel>
      <typeofhazard>                                                -->
 <!ENTITY % hazard-statement-domain "INCLUDE">
-<!--<!ENTITY % hazard-statement-domain "IGNORE">-->
 
 <!-- The highlight domain calls in: <b> <i> <sub> <sup> <tt> <u>   -->
 <!ENTITY % highlight-domain "INCLUDE">
-<!--<!ENTITY % highlight-domain "IGNORE">-->
 
 <!-- The indexing domain calls in: <index-see> <index-see-aslo>
      <index-sort-as>                                               -->
 <!ENTITY % indexing-domain "INCLUDE">
-<!--<!ENTITY % indexing-domain "IGNORE">-->
 
-<!-- The markup domain calls in: <markupname>                      -->
 <!-- BE CAREFUL!
-     markup-domain must be set to INCLUDE whenever xml-mention-domain
-     is set to INCLUDE.                                            -->
+     The markup-domain must be set to INCLUDE whenever the 
+     xml-mention-domain is set to INCLUDE.                         -->
+<!-- The markup domain calls in: <markupname>                      -->
 <!ENTITY % markup-domain "INCLUDE">
-<!--<!ENTITY % markup-domain "IGNORE">-->
 
 <!-- The mathml domain calls in: <mathml> <mathmlref>              -->
 <!ENTITY % mathml-domain "INCLUDE">
-<!--<!ENTITY % mathml-domain "IGNORE">-->
 
 <!-- The programming domain calls in: <apiname> <codeblock>
      <codeph> <coderef> <delim> <fragment> <fragref> <groupchoice>
@@ -63,7 +59,6 @@ PUBLIC "-//Tagsmiths//ENTITIES DITA Configuration Settings//EN"
      <parmname> <pd> <plentry> <pt> <repsep> <sep> <synblk>
      <synnote> <synnoteref> <synph> <syntaxdiagram> <var>          -->
 <!ENTITY % programming-domain "INCLUDE">
-<!--<!ENTITY % programming-domain "IGNORE">-->
 
 <!-- The software domain calls in: <cmdname> <filepath> <msgblock>
      <msgnum> <msgph>  <systemoutput> <userinput> <varname>        -->
@@ -74,43 +69,34 @@ PUBLIC "-//Tagsmiths//ENTITIES DITA Configuration Settings//EN"
      <change-request-system> <change-revisionid> <change-started>
      <change-summary>                                              -->
 <!ENTITY % release-management-domain "INCLUDE">
-<!--<!ENTITY % release-management-domain "IGNORE">-->
 
 <!-- The software domain calls in: <cmdname> <filepath> <msgblock>
      <msgnum> <msgph> <systemoutput> <userinput> <varname>         -->
 <!ENTITY % software-domain "INCLUDE">
-<!--<!ENTITY % software-domain "IGNORE">-->
 
 <!-- The svg domain calls in: <svg-container>                      -->
 <!ENTITY % svg-domain "INCLUDE">
-<!--<!ENTITY % svg-domain "IGNORE">-->
 
 <!-- The user-interface domain calls in: <menucascade> <screen>
      <shortcut> <uicontrol> <wintitle>                             -->
 <!ENTITY % user-interface-domain "INCLUDE">
-<!--<!ENTITY % user-interface-domain "IGNORE">-->
 
 <!-- The utility domain calls in: <imagemap> <area> <shape>
      <coords>                                                      -->
 <!ENTITY % utility-domain "INCLUDE">
-<!--<!ENTITY % utility-domain "IGNORE">-->
 
-<!-- The xml-mention domain calls in: -->
 <!-- BE CAREFUL!
-     markup-domain must be set to INCLUDE whenever
+     The markup-domain must be set to INCLUDE whenever
      xml-mention-domain is set to INCLUDE.                         -->
 <!-- The xml-mention domain call in: <numcharref>,
      <parameterentity>, <textentity>, <xmlatt>, <xmlelement>,
      <xmlnsname>, and <xmlpi>                                      -->     
 <!ENTITY % xml-mention-domain "INCLUDE">
-<!--<!ENTITY % xml-mention-domain "IGNORE">-->
 
 
 <!-- ============================================================= -->
 <!--                 CONSTRAINT SETTINGS                           -->
 <!-- ============================================================= -->
-
-
 <!-- REFERENCE ELEMENTS -->
 
 <!-- BE CAREFUL!
@@ -118,119 +104,132 @@ PUBLIC "-//Tagsmiths//ENTITIES DITA Configuration Settings//EN"
      simplePropdescConstraintSetting and simpleRefsynConstraintSetting
      must be set to IGNORE. DTD parsing errors occur if this is
      not done.                                                     -->     
-<!ENTITY % simpleRefbodyConstraintSetting "INCLUDE">
-<!--<!ENTITY % simpleRefbodyConstraintSetting "IGNORE">-->
+<!-- refsyn and properties elements have been removed.             -->
+<!ENTITY % simpleRefbodyConstraintSetting "IGNORE">
 
-<!--<!ENTITY % simplePropdescConstraintSetting "INCLUDE">-->
+<!-- Text and text-oriented inline elements have been removed.     -->
 <!ENTITY % simplePropdescConstraintSetting "IGNORE">
 
-<!--<!ENTITY % simpleRefsynConstraintSetting "INCLUDE">-->
+<!-- Text and text-oriented inline elements have been removed.
+     The title can only appear once at the beginning of the
+     refsyn rather than multiple times, anywhere.                  -->
 <!ENTITY % simpleRefsynConstraintSetting "IGNORE">
-
 
 <!-- COMMON ELEMENTS -->
 
-<!ENTITY % simpleAbstractConstraintSetting "INCLUDE">
-<!--<!ENTITY % simpleAbstractConstraintSetting "IGNORE">-->
+<!-- Text and text-oriented inline elements have been removed.     -->
+<!ENTITY % simpleAbstractConstraintSetting "IGNORE">
 
-<!ENTITY % simpleDdConstraintSetting "INCLUDE">
-<!--<!ENTITY % simpleDdConstraintSetting "IGNORE">-->
+<!-- Text and text-oriented inline elements have been removed.     -->
+<!ENTITY % simpleDdConstraintSetting "IGNORE">
 
-<!ENTITY % simpleDescConstraintSetting "INCLUDE">
-<!--<!ENTITY % simpleDescConstraintSetting "IGNORE">-->
+<!-- Text and text-oriented inline elements have been removed.     -->
+<!ENTITY % simpleDescConstraintSetting "IGNORE">
 
-<!ENTITY % simpleEntryConstraintSetting "INCLUDE">
-<!--<!ENTITY % simpleEntryConstraintSetting "IGNORE">-->
+<!-- Text and text-oriented inline elements have been removed.     -->
+<!ENTITY % simpleEntryConstraintSetting "IGNORE">
 
-<!ENTITY % simpleExampleConstraintSetting "INCLUDE">
-<!--<!ENTITY % simpleExampleConstraintSetting "IGNORE">-->
+<!-- Text and text-oriented inline elements have been removed.
+     The title can only appear once at the beginning of the
+     example rather than multiple times, anywhere.                 -->
+<!ENTITY % simpleExampleConstraintSetting "IGNORE">
 
-<!ENTITY % simpleItemgroupConstraintSetting "INCLUDE">
-<!--<!ENTITY % simpleItemgroupConstraintSetting "IGNORE">-->
+<!-- Text and text-oriented inline elements have been removed.     -->
+<!ENTITY % simpleItemgroupConstraintSetting "IGNORE">
 
-<!ENTITY % simpleLiConstraintSetting "INCLUDE">
-<!--<!ENTITY % simpleLiConstraintSetting "IGNORE">-->
+<!-- Text and text-oriented inline elements have been removed.     -->
+<!ENTITY % simpleLiConstraintSetting "IGNORE">
 
-<!ENTITY % simpleLinkinfoConstraintSetting "INCLUDE">
-<!--<!ENTITY % simpleLinkinfoConstraintSetting "IGNORE">-->
+<!-- Text and text-oriented inline elements have been removed.     -->
+<!ENTITY % simpleLinkinfoConstraintSetting "IGNORE">
 
-<!ENTITY % simpleLqConstraintSetting "INCLUDE">
-<!--<!ENTITY % simpleLqConstraintSetting "IGNORE">-->
+<!-- Text and text-oriented inline elements have been removed.     -->
+<!ENTITY % simpleLqConstraintSetting "IGNORE">
 
-<!ENTITY % simpleNoteConstraintSetting "INCLUDE">
-<!--<!ENTITY % simpleNoteConstraintSetting "IGNORE">-->
+<!-- Text and text-oriented inline elements have been removed.     -->
+<!ENTITY % simpleNoteConstraintSetting "IGNORE">
 
-<!ENTITY % simplePConstraintSetting "INCLUDE">
-<!--<!ENTITY % simplePConstraintSetting "IGNORE">-->
+<!-- Basic block elements have been removed. Notes, lists, and
+     tables are not allowed as child elements. Instead, they must
+     be entered as sibling elements.                               -->
+<!ENTITY % simplePConstraintSetting "IGNORE">
 
-<!ENTITY % simpleSectionConstraintSetting "INCLUDE">
-<!--<!ENTITY % simpleSectionConstraintSetting "IGNORE">
--->
-<!ENTITY % simpleSectiondivConstraintSetting "INCLUDE">
-<!--<!ENTITY % simpleSectiondivConstraintSetting "IGNORE">-->
+<!-- Text and text-oriented inline elements have been removed.
+     The title can only appear once at the beginning of the
+     section rather than multiple times, anywhere.                 -->
+<!ENTITY % simpleSectionConstraintSetting "IGNORE">
 
-<!ENTITY % simpleStentryConstraintSetting "INCLUDE">
-<!--<!ENTITY % simpleStentryConstraintSetting "IGNORE">-->
+<!-- Text and text-oriented inline elements have been removed.     -->
+<!ENTITY % simpleSectiondivConstraintSetting "IGNORE">
 
+<!-- Text and text-oriented inline elements have been removed.     -->
+<!ENTITY % simpleStentryConstraintSetting "IGNORE">
 
 <!-- TASK ELEMENTS -->
 
-<!ENTITY % simpleChdescConstraintSetting "INCLUDE">
-<!--<!ENTITY % simpleChdescConstraintSetting "IGNORE">-->
 
-<!ENTITY % simpleChdeschdConstraintSetting "INCLUDE">
-<!--<!ENTITY % simpleChdeschdConstraintSetting "IGNORE">-->
+<!-- Text and text-oriented inline elements have been removed.     -->
+<!ENTITY % simpleChdescConstraintSetting "IGNORE">
 
-<!ENTITY % simpleChoiceConstraintSetting "INCLUDE">
-<!--<!ENTITY % simpleChoiceConstraintSetting "IGNORE">-->
+<!-- Text and text-oriented inline elements have been removed.     -->
+<!ENTITY % simpleChdeschdConstraintSetting "IGNORE">
 
-<!ENTITY % simpleChoptionConstraintSetting "INCLUDE">
-<!--<!ENTITY % simpleChoptionConstraintSetting "IGNORE">-->
+<!-- Text and text-oriented inline elements have been removed.     -->
+<!ENTITY % simpleChoiceConstraintSetting "IGNORE">
 
-<!ENTITY % simpleChoptionhdConstraintSetting "INCLUDE">
-<!--<!ENTITY % simpleChoptionhdConstraintSetting "IGNORE">-->
+<!-- Text and text-oriented inline elements have been removed.     -->
+<!ENTITY % simpleChoptionConstraintSetting "IGNORE">
 
-<!ENTITY % simpleContextConstraintSetting "INCLUDE">
-<!--<!ENTITY % simpleContextConstraintSetting "IGNORE">-->
+<!-- Text and text-oriented inline elements have been removed.     -->
+<!ENTITY % simpleChoptionhdConstraintSetting "IGNORE">
 
-<!ENTITY % simpleInfoConstraintSetting "INCLUDE">
-<!--<!ENTITY % simpleInfoConstraintSetting "IGNORE">-->
+<!-- Text and text-oriented inline elements have been removed.     -->
+<!ENTITY % simpleContextConstraintSetting "IGNORE">
 
-<!ENTITY % simplePostreqConstraintSetting "INCLUDE">
-<!--<!ENTITY % simplePostreqConstraintSetting "IGNORE">-->
+<!-- Text and text-oriented inline elements have been removed.     -->
+<!ENTITY % simpleInfoConstraintSetting "IGNORE">
 
-<!ENTITY % simplePrereqConstraintSetting "INCLUDE">
-<!--<!ENTITY % simplePrereqConstraintSetting "IGNORE">-->
+<!-- Text and text-oriented inline elements have been removed.     -->
+<!ENTITY % simplePostreqConstraintSetting "IGNORE">
 
-<!ENTITY % simpleResultConstraintSetting "INCLUDE">
-<!--<!ENTITY % simpleResultConstraintSetting "IGNORE">-->
+<!-- Text and text-oriented inline elements have been removed.     -->
+<!ENTITY % simplePrereqConstraintSetting "IGNORE">
 
-<!ENTITY % simpleStepresultConstraintSetting "INCLUDE">
-<!--<!ENTITY % simpleStepresultConstraintSetting "IGNORE">-->
+<!-- Text and text-oriented inline elements have been removed.     -->
+<!ENTITY % simpleResultConstraintSetting "IGNORE">
 
-<!ENTITY % simpleSteps-informalConstraintSetting "INCLUDE">
-<!--<!ENTITY % simpleSteps-informalConstraintSetting "IGNORE">-->
+<!-- Text and text-oriented inline elements have been removed.     -->
+<!ENTITY % simpleStepresultConstraintSetting "IGNORE">
 
-<!ENTITY % simpleStepsectionConstraintSetting "INCLUDE">
-<!--<!ENTITY % simpleStepsectionConstraintSetting "IGNORE">-->
+<!-- Text and text-oriented inline elements have been removed.     -->
+<!ENTITY % simpleSteps-informalConstraintSetting "IGNORE">
 
-<!ENTITY % simpleSteptroubleshootingConstraintSetting "INCLUDE">
-<!--<!ENTITY % simpleSteptroubleshootingConstraintSetting "IGNORE">-->
+<!-- Text and text-oriented inline elements have been removed.     -->
+<!ENTITY % simpleStepsectionConstraintSetting "IGNORE">
 
-<!ENTITY % simpleStepxmpConstraintSetting "INCLUDE">
-<!--<!ENTITY % simpleStepxmpConstraintSetting "IGNORE">-->
+<!-- Text and text-oriented inline elements have been removed.     -->
+<!ENTITY % simpleSteptroubleshootingConstraintSetting "IGNORE">
 
-<!ENTITY % simpleTasktroubleshootingConstraintSetting "INCLUDE">
-<!--<!ENTITY % simpleTasktroubleshootingConstraintSetting "IGNORE">-->
+<!-- Text and text-oriented inline elements have been removed.     -->
+<!ENTITY % simpleStepxmpConstraintSetting "IGNORE">
 
-<!ENTITY % simpleTutorialinfoConstraintSetting "INCLUDE">
-<!--<!ENTITY % simpleTutorialinfoConstraintSetting "IGNORE">-->
+<!-- Text and text-oriented inline elements have been removed.     -->
+<!ENTITY % simpleTasktroubleshootingConstraintSetting "IGNORE">
 
+<!-- Text and text-oriented inline elements have been removed.     -->
+<!ENTITY % simpleTutorialinfoConstraintSetting "IGNORE">
+
+<!-- INCLUDE: Optional <prereq> followed by optional <context>.
+     IGNORE: Any number of <prereq> <context> and <section>
+     elements, in any order.                                       -->
+<!-- Set to INCLUDE by default so that it will match the constraint
+     applied in the default OASIS task.dtd.                        -->
 <!ENTITY % strictTaskbodyConstraintSetting "INCLUDE">
-<!--<!ENTITY % strictTaskbodyConstraintSetting "IGNORE">-->
+
 
 <!-- TROUBLESHOOTING ELEMENTS -->
 
-<!ENTITY % simpleRemedyConstraintSetting "INCLUDE">
-<!--<!ENTITY % simpleRemedyConstraintSetting "IGNORE">-->
+<!-- The responsibleParty element has been removed.                -->
+<!ENTITY % simpleRemedyConstraintSetting "IGNORE">
 
+<!-- simpleGlossdefConstraint is missing -->

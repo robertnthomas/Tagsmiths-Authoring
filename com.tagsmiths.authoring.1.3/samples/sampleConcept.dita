@@ -1,36 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE concept PUBLIC "-//Tagsmiths//DTD DITA Authoring Concept//EN" "authoring-concept.dtd">
-<concept id="concept"  class="- topic/topic concept/concept " domains="
-(topic concept)
-(topic abbrev-d)
-a(props deliveryTarget)
-(topic equation-d)
-(topic hazard-d)
-(topic hi-d)
-(topic indexing-d)
-(topic markup-d)
-(topic mathml-d)
-(topic pr-d)
-(topic relmgmt-d)
-(topic sw-d)
-(topic svg-d)
-(topic ui-d)
-(topic ut-d)
-(topic markup-d xml-d)
-(topic simpleAbstract-c)
-(topic simpleDd-c)
-(topic simpleDesc-c)
-(topic simpleEntry-c)
-(topic task simpleExample-c)
-(topic simpleItemgroup-c)
-(topic simpleLi-c)
-(topic simpleLinkinfo-c)
-(topic simpleLq-c)
-(topic simpleNote-c)
-(topic simpleP-c)
-(topic simpleSection-c)
-(topic simpleSectiondiv-c)
-(topic simpleStentry-c) ">
+<concept id="concept">
   <title>Concept title</title><prolog><metadata><keywords><indexterm></indexterm></keywords></metadata></prolog>
   <conbody>
     <section>

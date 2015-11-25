@@ -3,7 +3,7 @@
 >
 
 <!-- Text and text-oriented inline elements have been removed.
-     The title can only appear once near the beginning of the refsyn
+     The title can only appear once at the beginning of the refsyn
      rather than multiple times, anywhere.
 -->
 <!ENTITY % refsyn.content
