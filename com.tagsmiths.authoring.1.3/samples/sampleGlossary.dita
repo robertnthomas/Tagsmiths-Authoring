@@ -1,35 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE glossentry PUBLIC "-//Tagsmiths//DTD DITA Authoring Glossary Entry//EN" "authoring-glossentry.dtd">
-<glossentry id="sampleGlossterm" domains="(topic concept)
-(topic concept glossentry)
-a(props deliveryTarget) 
-(topic hazard-d)
-(topic hi-d)
-(topic indexing-d)
-(topic abbrev-d)
-(topic markup-d)
-(topic mathml-d)
-(topic pr-d)
-(topic relmgmt-d)
-(topic sw-d)
-(topic svg-d)
-(topic ui-d)
-(topic ut-d)
-(topic markup-d xml-d)
-(topic simpleAbstract-c)
-(topic simpleDd-c)
-(topic simpleDesc-c)
-(topic simpleEntry-c)
-(topic task simpleExample-c)
-(topic simpleItemgroup-c)
-(topic simpleLi-c)
-(topic simpleLinkinfo-c)
-(topic simpleLq-c)
-(topic simpleNote-c)
-(topic simpleP-c)
-(topic simpleSection-c)
-(topic simpleSectiondiv-c)
-(topic simpleStentry-c) ">
+<glossentry id="sampleGlossterm">
   <glossterm>Glossary term</glossterm>
   <glossdef>
     <p>Glossary definition</p>

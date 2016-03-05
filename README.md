@@ -38,4 +38,4 @@ at the dita-ot install directory and run the integrator from ant:
 All configuration for the Authoring DTDs is done from
 com.tagsmiths.authoring.1.3/dtd/CONFIGURATION_SETTINGS.ent.
 
-© 2015 Tagsmiths, LLC.
+© 2016 Tagsmiths, LLC.

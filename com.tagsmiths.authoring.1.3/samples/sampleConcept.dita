@@ -1,11 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE concept PUBLIC "-//Tagsmiths//DTD DITA Authoring Concept//EN" "authoring-concept.dtd">
 <concept id="concept">
-  <title>Concept title</title><prolog><metadata><keywords><indexterm></indexterm></keywords></metadata></prolog>
+  <title>Concept title</title>
   <conbody>
     <section>
       <title>Title can only go before paragraphs, lists, and tables</title>
-      <p></p><note type="trouble"></note>
+      <p>This is a paragraph.</p>
+      <note type="trouble"><p>Take notice of this.</p></note>
     </section>
   </conbody>
 </concept>

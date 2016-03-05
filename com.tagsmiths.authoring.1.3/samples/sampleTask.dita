@@ -1,52 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE task PUBLIC "-//Tagsmiths//DTD DITA Authoring Strict Task//EN" "authoring-task.dtd">
-<task id="sampleTask" domains="(topic task)
-(topic abbrev-d) a(props deliveryTarget) 
-(topic hazard-d)
-(topic hi-d)
-(topic indexing-d)
-(topic markup-d)
-(topic mathml-d)
-(topic pr-d)
-(topic relmgmt-d)
-(topic sw-d)
-(topic svg-d)
-(topic ui-d)
-(topic ut-d)
-(topic markup-d xml-d)
-(topic task simpleChdesc-c)
-(topic task simpleChdeschd-c)
-(topic task simpleChoice-c)
-(topic task simpleChoption-c)
-(topic task simpleChoptionhd-c)
-(topic task simpleContext-c)
-(topic task simpleInfo-c)
-(topic task simplePostreq-c)
-(topic task simplePrereq-c)
-(topic task simpleResult-c)
-(topic task simpleStepresult-c)
-(topic task simpleSteps-informal-c)
-(topic task simpleStepsection-c)
-(topic task simpleSteptroubleshooting-c)
-(topic task simpleTasktroubleshooting-c)
-(topic task simpleStepxmp-c)
-(topic task simpleTutorialinfo-c)
-(topic task strictTaskbody-c) 
-(topic simpleAbstract-c)
-(topic simpleDd-c)
-(topic simpleDesc-c)
-(topic simpleEntry-c)
-(topic task simpleExample-c)
-(topic simpleItemgroup-c)
-(topic simpleLi-c)
-(topic simpleLinkinfo-c)
-(topic simpleLq-c)
-(topic simpleNote-c)
-(topic simpleP-c)
-(topic simpleSection-c)
-(topic simpleSectiondiv-c)
-(topic simpleStentry-c)  ">
-  <title>Reference title</title>
+<task id="sampleTask">
+  <title>Task title</title>
   <taskbody>
     <prereq>
       <p>Do something else first.</p>
@@ -63,13 +18,13 @@
       </step>
       <step>
         <cmd>Second step</cmd>
-        <steptroubleshooting><p>You screwed up.</p></steptroubleshooting>
+        <steptroubleshooting><p>You messed up.</p></steptroubleshooting>
       </step>
     </steps>
     <result>
       <p>You get this.</p>
     </result>
-    <tasktroubleshooting><p>This ain't right.</p></tasktroubleshooting>
+    <tasktroubleshooting><p>This isn't right.</p></tasktroubleshooting>
     <example>
       <p>It looks like this:</p>
     </example>
