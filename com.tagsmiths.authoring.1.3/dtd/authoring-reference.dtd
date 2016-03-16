@@ -79,12 +79,6 @@ PUBLIC "-//Tagsmiths//ENTITIES DITA Common Domain Declarations//EN"
    "commonConstraintsDomainsAttr.ent"
 >%invokeCommonConstraintDomainsAttrEnts;
 
-<!-- Tagsmiths: call in entities for reference contraint domains attributes -->
-<!ENTITY % invokeReferenceConstraintDomainsAttrEnts 
-   PUBLIC "-//Tagsmiths//ENTITIES DITA Reference Constraints Domains Attribute//EN"
-   "referenceConstraintsDomainsAttr.ent"
->%invokeReferenceConstraintDomainsAttrEnts;
-
 <!-- Tagsmiths: Some of the referenced domains attribute entities will
      have empty definitions if their corresponding domains have been
      suppressed within ConfigurationSettings.ent. -->
@@ -106,7 +100,6 @@ PUBLIC "-//Tagsmiths//ENTITIES DITA Common Domain Declarations//EN"
 &ut-d-att;
 &xml-d-att;
 %commonConstraintsDomainsAttr;
-%referenceConstraintsDomainsAttr;
 "
 >
 

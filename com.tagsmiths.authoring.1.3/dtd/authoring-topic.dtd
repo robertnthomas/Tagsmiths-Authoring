@@ -34,7 +34,7 @@ PUBLIC "-//Tagsmiths//DTD DITA Authoring Topic//EN"
 <!-- ============================================================= -->
 <!ENTITY % configuration-settings
 PUBLIC "-//Tagsmiths//ENTITIES DITA Configuration Settings//EN"
-       "ConfigurationSettings.ent"
+       "CONFIGURATION_SETTINGS.ent"
 >%configuration-settings;
 
 <!-- ============================================================= -->

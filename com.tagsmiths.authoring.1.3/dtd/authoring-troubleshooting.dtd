@@ -32,14 +32,6 @@ PUBLIC "-//Tagsmiths//DTD DITA Authoring Troubleshooting//EN"
 <!-- ============================================================= -->
 <!--                   CONFIGURATION SETTINGS                      -->
 <!-- ============================================================= -->
-<!-- Overrides to suppress task constraints that don't pertain to  -->
-<!-- troubleshooting.                                              -->
-<!ENTITY % simpleContextConstraintSetting "IGNORE">
-<!ENTITY % simplePostreqConstraintSetting "IGNORE">
-<!ENTITY % simplePrereqConstraintSetting "IGNORE">
-<!ENTITY % simpleResultConstraintSetting "IGNORE">
-<!ENTITY % simpleTasktroubleshootingConstraintSetting "IGNORE">
-<!ENTITY % strictTaskbodyConstraintSetting "IGNORE">
 
 <!ENTITY % configuration-settings
 PUBLIC "-//Tagsmiths//ENTITIES DITA Configuration Settings//EN"
@@ -49,11 +41,6 @@ PUBLIC "-//Tagsmiths//ENTITIES DITA Configuration Settings//EN"
 <!-- ============================================================= -->
 <!--              TOPIC ENTITY DECLARATIONS                        -->
 <!-- ============================================================= -->
-
-<!ENTITY % task-dec
-  PUBLIC "-//OASIS//ENTITIES DITA 1.3 Task//EN"
-         "task.ent"
->%task-dec;
 
 <!ENTITY % troubleshooting-dec
   PUBLIC "-//OASIS//ENTITIES DITA 1.3 Troubleshooting//EN"
@@ -85,26 +72,12 @@ PUBLIC "-//Tagsmiths//ENTITIES DITA Common Domain Declarations//EN"
    "commonConstraintsDomainsAttr.ent"
 >%invokeCommonConstraintDomainsAttrEnts;
 
-<!-- Tagsmiths: call in entities for task constraint domains
-     attributes                                                    -->
-<!ENTITY % invokeTaskConstraintDomainsAttrEnts 
-   PUBLIC "-//Tagsmiths//ENTITIES DITA Task Constraints Domains Attribute//EN"
-   "taskConstraintsDomainsAttr.ent"
->%invokeTaskConstraintDomainsAttrEnts;
-
-<!-- Tagsmiths: call in entities for troubleshooting constraint
-     domains attributes                                            -->
-<!ENTITY % invokeTroubleshootingConstraintDomainsAttrEnts 
-   PUBLIC "-//Tagsmiths//ENTITIES DITA Troubleshooting Constraints Domains Attribute//EN"
-   "troubleshootingConstraintsDomainsAttr.ent"
->%invokeTroubleshootingConstraintDomainsAttrEnts;
 
 <!-- Tagsmiths: Some of the referenced domains attribute entities will
      have empty definitions if their corresponding domains have been
      suppressed within ConfigurationSettings.ent. -->
 <!ENTITY included-domains
-"&task-att;
-&troubleshooting-att;
+"&troubleshooting-att;
 &abbrev-d-att;
 &deliveryTargetAtt-d-att;
 &equation-d-att;
@@ -121,8 +94,6 @@ PUBLIC "-//Tagsmiths//ENTITIES DITA Common Domain Declarations//EN"
 &ut-d-att;
 &xml-d-att;
 %commonConstraintsDomainsAttr;
-%taskConstraintsDomainsAttr;
-%troubleshootingConstraintsDomainsAttr;
 "
 >
 
@@ -160,17 +131,6 @@ PUBLIC "-//Tagsmiths//ENTITIES DITA Common Element Sets" "commonElementSets.ent"
    "commonConstraintsContent.ent"
 >%invokeCommonContstraintsContent;
 
-<!-- Tagsmiths:  call in entities for additional task constraints  -->
-<!ENTITY % invokeTaskConstraintsContent
-PUBLIC "-//Tagsmiths//ENTITIES DITA Task Constraints Content//EN"
-"taskConstraintsContent.ent">
-%invokeTaskConstraintsContent;
-
-<!-- Tagsmiths:  call in entities for troubleshooting constraints  -->
-<!ENTITY % invokeTroubleshootingConstraintsContent
-PUBLIC "-//Tagsmiths//ENTITIES DITA Troubleshooting Constraints Content//EN"
-"troubleshootingConstraintsContent.ent">
-%invokeTroubleshootingConstraintsContent;
 
 <!-- ============================================================= -->
 <!--                    TOPIC ELEMENT INTEGRATION                  -->

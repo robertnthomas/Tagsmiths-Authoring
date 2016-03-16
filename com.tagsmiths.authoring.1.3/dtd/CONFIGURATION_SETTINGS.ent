@@ -232,4 +232,3 @@ PUBLIC "-//Tagsmiths//ENTITIES DITA Configuration Settings//EN"
 <!-- The responsibleParty element has been removed.                -->
 <!ENTITY % simpleRemedyConstraintSetting "IGNORE">
 
-<!-- simpleGlossdefConstraint is missing -->

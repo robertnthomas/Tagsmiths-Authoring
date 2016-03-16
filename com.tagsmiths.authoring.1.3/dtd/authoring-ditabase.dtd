@@ -40,10 +40,6 @@ PUBLIC "-//Tagsmiths//ENTITIES DITA Configuration Settings//EN"
 <!--              TOPIC ENTITY DECLARATIONS                        -->
 <!-- ============================================================= -->
 
-<!ENTITY % task-dec
-  PUBLIC "-//OASIS//ENTITIES DITA 1.3 Task//EN"
-         "task.ent"
->%task-dec;
 
 <!ENTITY % concept-dec
   PUBLIC "-//OASIS//ENTITIES DITA 1.3 Concept//EN"
@@ -124,31 +120,11 @@ PUBLIC "-//Tagsmiths//ENTITIES DITA Common Domain Declarations//EN"
    "commonConstraintsDomainsAttr.ent"
 >%invokeCommonConstraintDomainsAttrEnts;
 
-<!-- Tagsmiths: call in entities for reference contraint domains attributes -->
-<!ENTITY % invokeReferenceConstraintDomainsAttrEnts 
-   PUBLIC "-//Tagsmiths//ENTITIES DITA Reference Constraints Domains Attribute//EN"
-   "referenceConstraintsDomainsAttr.ent"
->%invokeReferenceConstraintDomainsAttrEnts;
-
-<!-- Tagsmiths: call in entities for task constraint domains attributes -->
-<!ENTITY % invokeTaskConstraintDomainsAttrEnts 
-   PUBLIC "-//Tagsmiths//ENTITIES DITA Task Constraints Domains Attribute//EN"
-   "taskConstraintsDomainsAttr.ent"
->%invokeTaskConstraintDomainsAttrEnts;
-
-<!-- Tagsmiths: call in entities for troubleshooting constraint
-     domains attributes                                            -->
-<!ENTITY % invokeTroubleshootingConstraintDomainsAttrEnts 
-   PUBLIC "-//Tagsmiths//ENTITIES DITA Troubleshooting Constraints Domains Attribute//EN"
-   "troubleshootingConstraintsDomainsAttr.ent"
->%invokeTroubleshootingConstraintDomainsAttrEnts;
-
 <!-- Tagsmiths: Some of the referenced domains attribute entities will
      have empty definitions if their corresponding domains have been
      suppressed within ConfigurationSettings.ent. -->
 <!ENTITY included-domains
-"&task-att;
-&concept-att;
+"&concept-att;
 &glossentry-att;
 &glossgroup-att;
 &reference-att;
@@ -169,9 +145,6 @@ PUBLIC "-//Tagsmiths//ENTITIES DITA Common Domain Declarations//EN"
 &ut-d-att;
 &xml-d-att;
 %commonConstraintsDomainsAttr;
-%referenceConstraintsDomainsAttr;
-%taskConstraintsDomainsAttr;
-%troubleshootingConstraintsDomainsAttr;
 "
 >
 
@@ -208,24 +181,6 @@ PUBLIC "-//Tagsmiths//ENTITIES DITA Common Element Sets" "commonElementSets.ent"
    PUBLIC "-//Tagsmiths//ENTITIES DITA Common Constraints Content//EN"
    "commonConstraintsContent.ent"
 >%invokeCommonContstraintsContent;
-
-<!-- Tagsmiths: Call in entities for reference contraints content  -->
-<!ENTITY % invokeReferenceContstraintsContent 
-   PUBLIC "-//Tagsmiths//ENTITIES DITA Reference Constraints Content//EN"
-   "referenceConstraintsContent.ent"
->%invokeReferenceContstraintsContent;
-
-<!-- Tagsmiths:  call in entities for additional task constraints  -->
-<!ENTITY % invokeTaskConstraintsContent
-PUBLIC "-//Tagsmiths//ENTITIES DITA Task Constraints Content//EN"
-"taskConstraintsContent.ent">
-%invokeTaskConstraintsContent;
-
-<!-- Tagsmiths:  call in entities for troubleshooting constraints  -->
-<!ENTITY % invokeTroubleshootingConstraintsContent
-PUBLIC "-//Tagsmiths//ENTITIES DITA Troubleshooting Constraints Content//EN"
-"troubleshootingConstraintsContent.ent">
-%invokeTroubleshootingConstraintsContent;
 
 <!-- ============================================================= -->
 <!--                    TOPIC ELEMENT INTEGRATION                  -->

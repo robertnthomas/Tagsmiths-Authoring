@@ -71,12 +71,6 @@ PUBLIC "-//Tagsmiths//ENTITIES DITA Common Domain Declarations//EN"
    "commonConstraintsDomainsAttr.ent"
 >%invokeCommonConstraintDomainsAttrEnts;
 
-<!-- Tagsmiths: call in entities for task contraint domains attributes -->
-<!ENTITY % invokeTaskConstraintDomainsAttrEnts 
-   PUBLIC "-//Tagsmiths//ENTITIES DITA Task Constraints Domains Attribute//EN"
-   "taskConstraintsDomainsAttr.ent"
->%invokeTaskConstraintDomainsAttrEnts;
-
 <!-- Tagsmiths: Some of the referenced domains attribute entities will
      have empty definitions if their corresponding domains have been
      suppressed within ConfigurationSettings.ent. -->
@@ -98,7 +92,6 @@ PUBLIC "-//Tagsmiths//ENTITIES DITA Common Domain Declarations//EN"
 &ui-d-att;
 &ut-d-att;
 &xml-d-att;
-%taskConstraintsDomainsAttr;
 %commonConstraintsDomainsAttr;
 "
 >
@@ -136,17 +129,6 @@ PUBLIC "-//Tagsmiths//ENTITIES DITA Common Element Sets" "commonElementSets.ent"
    "commonConstraintsContent.ent"
 >%invokeCommonContstraintsContent;
 
-
-<!--<!ENTITY % strictTaskbody-def
-  PUBLIC "-//OASIS//ELEMENTS DITA 1.3 Strict Taskbody Constraint//EN"
-         "../../org.oasis-open.dita.v1_3/dtd/technicalContent/dtd/strictTaskbodyConstraint.mod"
->%strictTaskbody-def;-->
-
-<!-- Tagsmiths:  call in entities for additional task constraints  -->
-<!ENTITY % invokeTaskConstraintsContent
-PUBLIC "-//Tagsmiths//ENTITIES DITA Task Constraints Content//EN"
-"taskConstraintsContent.ent">
-%invokeTaskConstraintsContent;
 
 <!-- ============================================================= -->
 <!--                    TOPIC ELEMENT INTEGRATION                  -->

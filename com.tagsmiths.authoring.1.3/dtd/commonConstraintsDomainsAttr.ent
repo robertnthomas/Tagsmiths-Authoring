@@ -1,4 +1,6 @@
 <!-- CONDITIONAL ASSIGNMENTS activated from ConfigurationSettings.ent -->
+
+<!-- COMMON -->
 <![%simpleAbstractConstraintSetting;[
   <!ENTITY % simpleAbstract-constraints_option "&simpleAbstract-constraints;">
 ]]>
@@ -41,8 +43,79 @@
 <![%simpleStentryConstraintSetting;[
   <!ENTITY % simpleStentry-constraints_option "&simpleStentry-constraints;">
 ]]>
+<!-- TASK -->
+<!-- CONDITIONAL ASSIGNMENTS activated from ConfigurationSettings.ent -->
+<![%simpleChdescConstraintSetting;[
+  <!ENTITY % simpleChdesc-constraints_option "&simpleChdesc-constraints;">
+]]>
+<![%simpleChdeschdConstraintSetting;[
+  <!ENTITY % simpleChdeschd-constraints_option "&simpleChdeschd-constraints;">
+]]>
+<![%simpleChoiceConstraintSetting;[
+  <!ENTITY % simpleChoice-constraints_option "&simpleChoice-constraints;">
+]]>
+<![%simpleChoptionConstraintSetting;[
+  <!ENTITY % simpleChoption-constraints_option "&simpleChoption-constraints;">
+]]>
+<![%simpleChoptionhdConstraintSetting;[
+  <!ENTITY % simpleChoptionhd-constraints_option "&simpleChoptionhd-constraints;">
+]]>
+<![%simpleContextConstraintSetting;[
+  <!ENTITY % simpleContext-constraints_option "&simpleContext-constraints;">
+]]>
+<![%simpleInfoConstraintSetting;[
+  <!ENTITY % simpleInfo-constraints_option "&simpleInfo-constraints;">
+]]>
+<![%simplePostreqConstraintSetting;[
+  <!ENTITY % simplePostreq-constraints_option "&simplePostreq-constraints;">
+]]>
+<![%simplePrereqConstraintSetting;[
+  <!ENTITY % simplePrereq-constraints_option "&simplePrereq-constraints;">
+]]>
+<![%simpleResultConstraintSetting;[
+  <!ENTITY % simpleResult-constraints_option "&simpleResult-constraints;">
+]]>
+<![%simpleStepresultConstraintSetting;[
+  <!ENTITY % simpleStepresult-constraints_option "&simpleStepresult-constraints;">
+]]>
+<![%simpleSteps-informalConstraintSetting;[
+  <!ENTITY % simpleSteps-informal-constraints_option "&simpleSteps-informal-constraints;">
+]]>
+<![%simpleStepsectionConstraintSetting;[
+  <!ENTITY % simpleStepsection-constraints_option "&simpleStepsection-constraints;">
+]]>
+<![%simpleSteptroubleshootingConstraintSetting;[
+  <!ENTITY % simpleSteptroubleshooting-constraints_option "&simpleSteptroubleshooting-constraints;">
+]]>
+<![%simpleStepxmpConstraintSetting;[
+  <!ENTITY % simpleStepxmp-constraints_option "&simpleStepxmp-constraints;">
+]]>
+<![%simpleTasktroubleshootingConstraintSetting;[
+  <!ENTITY % simpleTasktroubleshooting-constraints_option "&simpleTasktroubleshooting-constraints;">
+]]>
+<![%simpleTutorialinfoConstraintSetting;[
+  <!ENTITY % simpleTutorialinfo-constraints_option "&simpleTutorialinfo-constraints;">
+]]>
+<![%strictTaskbodyConstraintSetting;[
+  <!ENTITY % strictTaskbody-constraints_option "&strictTaskbody-constraints;">
+]]>
+<!-- REFERENCE -->
+<![%simpleRefbodyConstraintSetting;[
+  <!ENTITY % simpleRefbody-constraints_option "&simpleRefbody-constraints;">
+]]>
+<![%simplePropdescConstraintSetting;[
+  <!ENTITY % simplePropdesc-constraints_option "&simplePropdesc-constraints;">
+]]>
+<![%simpleRefsynConstraintSetting;[
+  <!ENTITY % simpleRefsyn-constraints_option "&simpleRefsyn-constraints;">
+]]>
+<!-- TROUBLESHOOTING -->
+<![%simpleRemedyConstraintSetting;[
+  <!ENTITY % simpleRemedy-constraints_option "&simpleRemedy-constraints;">
+]]>
 
 <!-- FALLBACK ASSIGNMENTS -->
+<!-- COMMON -->
 <!ENTITY % simpleAbstract-constraints_option "">
 <!ENTITY % simpleDd-constraints_option "">
 <!ENTITY % simpleDesc-constraints_option "">
@@ -57,6 +130,31 @@
 <!ENTITY % simpleSection-constraints_option "">
 <!ENTITY % simpleSectiondiv-constraints_option "">
 <!ENTITY % simpleStentry-constraints_option "">
+<!-- TASK -->
+<!ENTITY % simpleChdesc-constraints_option "">
+<!ENTITY % simpleChdeschd-constraints_option "">
+<!ENTITY % simpleChoice-constraints_option "">
+<!ENTITY % simpleChoption-constraints_option "">
+<!ENTITY % simpleChoptionhd-constraints_option "">
+<!ENTITY % simpleContext-constraints_option "">
+<!ENTITY % simpleInfo-constraints_option "">
+<!ENTITY % simplePostreq-constraints_option "">
+<!ENTITY % simplePrereq-constraints_option "">
+<!ENTITY % simpleResult-constraints_option "">
+<!ENTITY % simpleStepresult-constraints_option "">
+<!ENTITY % simpleSteps-informal-constraints_option "">
+<!ENTITY % simpleStepsection-constraints_option "">
+<!ENTITY % simpleSteptroubleshooting-constraints_option "">
+<!ENTITY % simpleStepxmp-constraints_option "">
+<!ENTITY % simpleTasktroubleshooting-constraints_option "">
+<!ENTITY % simpleTutorialinfo-constraints_option "">
+<!ENTITY % strictTaskbody-constraints_option "">
+<!-- REFERENCE -->
+<!ENTITY % simpleRefbody-constraints_option "">
+<!ENTITY % simplePropdesc-constraints_option "">
+<!ENTITY % simpleRefsyn-constraints_option "">
+<!-- TROUBLESHOOTING -->
+<!ENTITY % simpleRemedy-constraints_option "">
 
 <!-- DOMAINS ATTRIBUTE VALUE -->
 <!ENTITY % commonConstraintsDomainsAttr "
@@ -74,4 +172,26 @@
 %simpleSection-constraints_option;
 %simpleSectiondiv-constraints_option;
 %simpleStentry-constraints_option;
+%simpleChdesc-constraints_option;
+%simpleChdeschd-constraints_option;
+%simpleChoice-constraints_option;
+%simpleChoption-constraints_option;
+%simpleChoptionhd-constraints_option;
+%simpleContext-constraints_option;
+%simpleInfo-constraints_option;
+%simplePostreq-constraints_option;
+%simplePrereq-constraints_option;
+%simpleResult-constraints_option;
+%simpleStepresult-constraints_option;
+%simpleSteps-informal-constraints_option;
+%simpleStepsection-constraints_option;
+%simpleSteptroubleshooting-constraints_option;
+%simpleTasktroubleshooting-constraints_option;
+%simpleStepxmp-constraints_option;
+%simpleTutorialinfo-constraints_option;
+%strictTaskbody-constraints_option;
+%simpleRefbody-constraints_option;
+%simplePropdesc-constraints_option;
+%simpleRefsyn-constraints_option;
+%simpleRemedy-constraints_option;
 ">

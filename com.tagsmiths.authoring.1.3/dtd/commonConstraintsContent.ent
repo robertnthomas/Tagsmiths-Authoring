@@ -1,11 +1,11 @@
-<![%simpleDdConstraintSetting;[
+<![%simpleAbstractConstraintSetting;[
   <!ENTITY % simpleDdConstraint-c-def
     PUBLIC "-//Tagsmiths//ELEMENTS DITA 1.3 Simple Dd Constraint//EN"
     "simpleDdConstraint.mod"
   >
   %simpleDdConstraint-c-def;
 ]]>
-<![%simpleAbstractConstraintSetting;[
+<![%simpleDdConstraintSetting;[
   <!ENTITY % simpleAbstractConstraint-c-def  
     PUBLIC "-//Tagsmiths//ELEMENTS DITA 1.3 Simple Abstract Constraint//EN" 
     "simpleAbstractConstraint.mod"
@@ -82,4 +82,139 @@
     PUBLIC "-//Tagsmiths//ELEMENTS DITA 1.3 Simple Stentry Constraint//EN"
     "simpleStentryConstraint.mod"
   >%simpleStentryConstraint-c-def;
+]]>
+<!-- TASK -->
+<![%simpleChdescConstraintSetting;[
+  <!ENTITY % simpleChdescConstraint-c-def
+    PUBLIC "-//Tagsmiths//ELEMENTS DITA 1.3 Simple Chdesc Constraint//EN"
+    "simpleChdescConstraint.mod"
+  >%simpleChdescConstraint-c-def;
+]]>
+<![%simpleChdeschdConstraintSetting;[
+  <!ENTITY % simpleChdeschdConstraint-c-def
+    PUBLIC "-//Tagsmiths//ELEMENTS DITA 1.3 Simple Chdeschd Constraint//EN"
+    "simpleChdeschdConstraint.mod"
+  >%simpleChdeschdConstraint-c-def;
+]]>
+<![%simpleChoiceConstraintSetting;[
+  <!ENTITY % simpleChoiceConstraint-c-def
+    PUBLIC "-//Tagsmiths//ELEMENTS DITA 1.3 Simple Choice Constraint//EN"
+    "simpleChoiceConstraint.mod"
+  >%simpleChoiceConstraint-c-def;
+]]>
+<![%simpleChoptionConstraintSetting;[
+  <!ENTITY % simpleChoptionConstraint-c-def
+    PUBLIC "-//Tagsmiths//ELEMENTS DITA 1.3 Simple Choption Constraint//EN"
+    "simpleChoptionConstraint.mod"
+  >%simpleChoptionConstraint-c-def;
+]]>
+<![%simpleChoptionhdConstraintSetting;[
+  <!ENTITY % simpleChoptionhdConstraint-c-def
+    PUBLIC "-//Tagsmiths//ELEMENTS DITA 1.3 Simple Choptionhd Constraint//EN"
+    "simpleChoptionhdConstraint.mod"
+  >%simpleChoptionhdConstraint-c-def;
+]]>
+<![%simpleContextConstraintSetting;[
+  <!ENTITY % simpleContextConstraint-c-def
+    PUBLIC "-//Tagsmiths//ELEMENTS DITA 1.3 Simple Context Constraint//EN"
+    "simpleContextConstraint.mod"
+  >%simpleContextConstraint-c-def;
+]]>
+<![%simpleInfoConstraintSetting;[
+  <!ENTITY % simpleInfoConstraint-c-def
+    PUBLIC "-//Tagsmiths//ELEMENTS DITA 1.3 Simple Info Constraint//EN"
+    "simpleInfoConstraint.mod"
+  >%simpleInfoConstraint-c-def;
+]]>
+<![%simplePostreqConstraintSetting;[
+  <!ENTITY % simplePostreqConstraint-c-def
+    PUBLIC "-//Tagsmiths//ELEMENTS DITA 1.3 Simple Postreq Constraint//EN"
+    "simplePostreqConstraint.mod"
+  >%simplePostreqConstraint-c-def;
+]]>
+<![%simplePrereqConstraintSetting;[
+  <!ENTITY % simplePrereqConstraint-c-def
+    PUBLIC "-//Tagsmiths//ELEMENTS DITA 1.3 Simple Prereq Constraint//EN"
+    "simplePrereqConstraint.mod"
+  >%simplePrereqConstraint-c-def;
+]]>
+<![%simpleResultConstraintSetting;[
+  <!ENTITY % simpleResultConstraint-c-def
+    PUBLIC "-//Tagsmiths//ELEMENTS DITA 1.3 Simple Result Constraint//EN"
+    "simpleResultConstraint.mod"
+  >%simpleResultConstraint-c-def;
+]]>
+<![%simpleStepresultConstraintSetting;[
+  <!ENTITY % simpleStepresultConstraint-c-def
+    PUBLIC "-//Tagsmiths//ELEMENTS DITA 1.3 Simple Stepresult Constraint//EN"
+    "simpleStepresultConstraint.mod"
+  >%simpleStepresultConstraint-c-def;
+]]>
+<![%simpleSteps-informalConstraintSetting;[
+  <!ENTITY % simpleSteps-informalConstraint-c-def
+    PUBLIC "-//Tagsmiths//ELEMENTS DITA 1.3 Simple Steps-informal Constraint//EN"
+    "simpleSteps-informalConstraint.mod"
+  >%simpleSteps-informalConstraint-c-def;
+]]>
+<![%simpleStepsectionConstraintSetting;[
+  <!ENTITY % simpleStepsectionConstraint-c-def
+    PUBLIC "-//Tagsmiths//ELEMENTS DITA 1.3 Simple Stepsection Constraint//EN"
+    "simpleStepsectionConstraint.mod"
+  >%simpleStepsectionConstraint-c-def;
+]]>
+<![%simpleSteptroubleshootingConstraintSetting;[
+  <!ENTITY % simpleSteptroubleshootingConstraint-c-def
+    PUBLIC "-//Tagsmiths//ELEMENTS DITA 1.3 Simple Steptroubleshooting Constraint//EN"
+    "simpleSteptroubleshootingConstraint.mod"
+  >%simpleSteptroubleshootingConstraint-c-def;
+]]>
+<![%simpleStepxmpConstraintSetting;[
+  <!ENTITY % simpleStepxmpConstraint-c-def
+    PUBLIC "-//Tagsmiths//ELEMENTS DITA 1.3 Simple Stepxmp Constraint//EN"
+    "simpleStepxmpConstraint.mod"
+  >%simpleStepxmpConstraint-c-def;
+]]>
+<![%simpleTasktroubleshootingConstraintSetting;[
+  <!ENTITY % simpleTasktroubleshootingConstraint-c-def
+    PUBLIC "-//Tagsmiths//ELEMENTS DITA 1.3 Simple Tasktroubleshooting Constraint//EN"
+    "simpleTasktroubleshootingConstraint.mod"
+  >%simpleTasktroubleshootingConstraint-c-def;
+]]>
+<![%simpleTutorialinfoConstraintSetting;[
+  <!ENTITY % simpleTutorialinfoConstraint-c-def
+    PUBLIC "-//Tagsmiths//ELEMENTS DITA 1.3 Simple Tutorialinfo Constraint//EN"
+    "simpleTutorialinfoConstraint.mod"
+  >%simpleTutorialinfoConstraint-c-def;
+]]>
+<![%strictTaskbodyConstraintSetting;[
+  <!ENTITY % strictTaskbodyConstraint-c-def
+    PUBLIC "-//Tagsmiths//ELEMENTS DITA 1.3 Strict Taskbody Constraint//EN"
+    "strictTaskbodyConstraint.mod"
+  >%strictTaskbodyConstraint-c-def;
+]]>
+<!-- REFERENCE -->
+<![%simpleRefbodyConstraintSetting;[
+  <!ENTITY % simpleRefbodyConstraint-c-def
+    PUBLIC "-//Tagsmiths//ELEMENTS DITA 1.3 Simple Refbody Constraint//EN"
+    "simpleRefbodyConstraint.mod"
+  >%simpleRefbodyConstraint-c-def;
+]]>
+<![%simplePropdescConstraintSetting;[
+  <!ENTITY % simplePropdescConstraint-c-def
+    PUBLIC "-//Tagsmiths//ELEMENTS DITA 1.3 Simple Propdesc Constraint//EN"
+    "simplePropdescConstraint.mod"
+  >%simplePropdescConstraint-c-def;
+]]>
+<![%simpleRefsynConstraintSetting;[
+  <!ENTITY % simpleRefsynConstraint-c-def
+    PUBLIC "-//Tagsmiths//ELEMENTS DITA 1.3 Simple Refsyn Constraint//EN"
+    "simpleRefsynConstraint.mod"
+  >%simpleRefsynConstraint-c-def;
+]]>
+<!-- TROUBLESHOOTING -->
+<![%simpleRemedyConstraintSetting;[
+  <!ENTITY % simpleRemedyConstraint-c-def
+    PUBLIC "-//Tagsmiths//ELEMENTS DITA 1.3 Simple Remedy Constraint//EN"
+    "simpleRemedyConstraint.mod"
+  >%simpleRemedyConstraint-c-def;
 ]]>
