@@ -20,10 +20,15 @@ without sacrificing the semantics that are important to their writing.
 This plugin was designed to work with dita-ot 2.1.0 or later. These plugins may work with older
 versions of the dita-ot, but that hasn't been tested.
 
-Plugin com.tagsmiths.dita.v1_3 is meant to replace plugin org.oasis-open.dita.v1_2 in the
+Plugin org.oasis-open.dita.v1_3 is meant to replace plugin org.oasis-open.dita.v1_2 in the
 dita-ot (remove plugin org.oasis-open.dita.v1_2 and add plugin com.tagsmiths.dita.v1_3).
-Beginning with dita-ot-2.1.2, the dita-ot contains the DITA 1.3 DTDs. For these newer
-versions of the dita-ot, the com.tagsmiths.dita.v1_3 plugin can be ignored.
+IMPORTANT: Beginning with dita-ot-2.2, the dita-ot already contains the org.oasis-open.dita.v1_3.
+For these newer versions of the dita-ot, the org.oasis-open.dita.v1_3 plugin in this project
+MUST be discarded. The only reason that org.oasis-open.dita.v1_3 in this project has the same
+name as org.oasis-open.dita.v1_3 in the DITA 2.2 (and later) dita-ot is this: the system locations
+in Authoring DTD public parameter entities use relative paths to .mod and .ent files in the
+org.oasis-open.dita.v1_3 plugin. These two different plugins must have the same name
+if the system identifiers are to resolve on both older and newer dita-ot instances.
 
 Once you have copied the plugins to your dita-ot plugins directory, open a command prompt
 at the dita-ot install directory and run the integrator from ant:
