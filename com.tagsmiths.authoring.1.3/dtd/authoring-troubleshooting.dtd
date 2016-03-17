@@ -35,7 +35,7 @@ PUBLIC "-//Tagsmiths//DTD DITA Authoring Troubleshooting//EN"
 
 <!ENTITY % configuration-settings
 PUBLIC "-//Tagsmiths//ENTITIES DITA Configuration Settings//EN"
-       "ConfigurationSettings.ent"
+       "CONFIGURATION_SETTINGS.ent"
 >%configuration-settings;
 
 <!-- ============================================================= -->
@@ -75,7 +75,7 @@ PUBLIC "-//Tagsmiths//ENTITIES DITA Common Domain Declarations//EN"
 
 <!-- Tagsmiths: Some of the referenced domains attribute entities will
      have empty definitions if their corresponding domains have been
-     suppressed within ConfigurationSettings.ent. -->
+     suppressed within CONFIGURATION_SETTINGS.ent. -->
 <!ENTITY included-domains
 "&troubleshooting-att;
 &abbrev-d-att;

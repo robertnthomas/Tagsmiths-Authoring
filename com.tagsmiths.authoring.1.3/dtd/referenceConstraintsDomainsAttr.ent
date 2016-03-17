@@ -1,4 +1,4 @@
-<!-- CONDITIONAL ASSIGNMENTS activated from ConfigurationSettings.ent -->
+<!-- CONDITIONAL ASSIGNMENTS activated from CONFIGURATION_SETTINGS.ent -->
 
 <![%simpleRefbodyConstraintSetting;[
   <!ENTITY % simpleRefbody-constraints_option "&simpleRefbody-constraints;">

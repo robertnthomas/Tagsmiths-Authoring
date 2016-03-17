@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- CONDITIONAL ASSIGNMENTS activated from ConfigurationSettings.ent -->
+<!-- CONDITIONAL ASSIGNMENTS activated from CONFIGURATION_SETTINGS.ent -->
 <![%simpleChdescConstraintSetting;[
   <!ENTITY % simpleChdesc-constraints_option "&simpleChdesc-constraints;">
 ]]>

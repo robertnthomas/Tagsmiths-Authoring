@@ -1,4 +1,4 @@
-<!-- CONDITIONAL ASSIGNMENTS activated from ConfigurationSettings.ent -->
+<!-- CONDITIONAL ASSIGNMENTS activated from CONFIGURATION_SETTINGS.ent -->
 
 <!-- COMMON -->
 <![%simpleAbstractConstraintSetting;[
@@ -44,7 +44,7 @@
   <!ENTITY % simpleStentry-constraints_option "&simpleStentry-constraints;">
 ]]>
 <!-- TASK -->
-<!-- CONDITIONAL ASSIGNMENTS activated from ConfigurationSettings.ent -->
+<!-- CONDITIONAL ASSIGNMENTS activated from CONFIGURATION_SETTINGS.ent -->
 <![%simpleChdescConstraintSetting;[
   <!ENTITY % simpleChdesc-constraints_option "&simpleChdesc-constraints;">
 ]]>
