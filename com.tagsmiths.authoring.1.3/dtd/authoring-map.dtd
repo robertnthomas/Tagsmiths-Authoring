@@ -58,22 +58,22 @@ PUBLIC "-//Tagsmiths//ENTITIES DITA Configuration Settings//EN"
 
 <!ENTITY % mapgroup-d-dec
   PUBLIC "-//OASIS//ENTITIES DITA 1.3 Map Group Domain//EN"
-         "../../base/dtd/mapGroup.ent"
+         "../../org.oasis-open.dita.v1_3/dtd/base/dtd/mapGroup.ent"
 >%mapgroup-d-dec;
 
 <!ENTITY % delay-d-dec
   PUBLIC "-//OASIS//ENTITIES DITA 1.3 Delayed Resolution Domain//EN"
-         "../../base/dtd/delayResolutionDomain.ent"
+         "../../org.oasis-open.dita.v1_3/dtd/base/dtd/delayResolutionDomain.ent"
 >%delay-d-dec;
 
 <!ENTITY % ditavalref-d-dec
   PUBLIC "-//OASIS//ENTITIES DITA 1.3 DITAVAL Ref Domain//EN"
-         "../../base/dtd/ditavalrefDomain.ent"
+         "../../org.oasis-open.dita.v1_3/dtd/base/dtd/ditavalrefDomain.ent"
 >%ditavalref-d-dec;
 
 <!ENTITY % glossref-d-dec
   PUBLIC "-//OASIS//ENTITIES DITA 1.3 Glossary Reference Domain//EN"
-         "glossrefDomain.ent"
+         "../../org.oasis-open.dita.v1_3/dtd/technicalContent/dtd/glossrefDomain.ent"
 >%glossref-d-dec;
 
 <!ENTITY % common-domain-declarations
@@ -150,7 +150,7 @@ PUBLIC "-//Tagsmiths//ENTITIES DITA Common Domain Declarations//EN"
 
 <!ENTITY % map-type
   PUBLIC "-//OASIS//ELEMENTS DITA 1.3 Map//EN"
-         "../../base/dtd/map.mod"
+         "../../org.oasis-open.dita.v1_3/dtd/base/dtd/map.mod"
 >%map-type;
 
 <!-- ============================================================= -->
@@ -165,22 +165,22 @@ PUBLIC "-//Tagsmiths//ENTITIES DITA Common Domain Declarations//EN"
 
 <!ENTITY % mapgroup-d-def
   PUBLIC "-//OASIS//ELEMENTS DITA 1.3 Map Group Domain//EN"
-         "../../base/dtd/mapGroup.mod"
+         "../../org.oasis-open.dita.v1_3/dtd/base/dtd/mapGroup.mod"
 >%mapgroup-d-def;
 
 <!ENTITY % delay-d-def
   PUBLIC "-//OASIS//ELEMENTS DITA 1.3 Delayed Resolution Domain//EN"
-         "../../base/dtd/delayResolutionDomain.mod"
+         "../../org.oasis-open.dita.v1_3/dtd/base/dtd/delayResolutionDomain.mod"
 >%delay-d-def;
 
 <!ENTITY % ditavalref-d-def
   PUBLIC "-//OASIS//ELEMENTS DITA 1.3 DITAVAL Ref Domain//EN"
-         "../../base/dtd/ditavalrefDomain.mod"
+         "../../org.oasis-open.dita.v1_3/dtd/base/dtd/ditavalrefDomain.mod"
 >%ditavalref-d-def;
 
 <!ENTITY % glossref-d-def
   PUBLIC "-//OASIS//ELEMENTS DITA 1.3 Glossary Reference Domain//EN"
-         "glossrefDomain.mod"
+         "../../org.oasis-open.dita.v1_3/dtd/technicalContent/dtd/glossrefDomain.mod"
 >%glossref-d-def;
 
 <!-- ================= End of DITA Map Shell ================= -->

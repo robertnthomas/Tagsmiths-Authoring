@@ -43,7 +43,7 @@ PUBLIC "-//Tagsmiths//ENTITIES DITA Configuration Settings//EN"
 
 <!ENTITY % task-dec
   PUBLIC "-//OASIS//ENTITIES DITA 1.3 Task//EN"
-         "task.ent"
+         "../../org.oasis-open.dita.v1_3/dtd/technicalContent/dtd/task.ent"
 >%task-dec;
 
 <!-- ============================================================= -->
@@ -136,12 +136,12 @@ PUBLIC "-//Tagsmiths//ENTITIES DITA Common Element Sets" "commonElementSets.ent"
 
 <!ENTITY % topic-type
   PUBLIC "-//OASIS//ELEMENTS DITA 1.3 Topic//EN"
-         "../../base/dtd/topic.mod"
+         "../../org.oasis-open.dita.v1_3/dtd/base/dtd/topic.mod"
 >%topic-type;
 
 <!ENTITY % task-type
   PUBLIC "-//OASIS//ELEMENTS DITA 1.3 Task//EN"
-         "task.mod"
+         "../../org.oasis-open.dita.v1_3/dtd/technicalContent/dtd/task.mod"
 >%task-type;
 
 <!-- ============================================================= -->

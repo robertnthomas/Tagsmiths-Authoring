@@ -43,27 +43,27 @@ PUBLIC "-//Tagsmiths//ENTITIES DITA Configuration Settings//EN"
 
 <!ENTITY % concept-dec
   PUBLIC "-//OASIS//ENTITIES DITA 1.3 Concept//EN"
-         "concept.ent"
+         "../../org.oasis-open.dita.v1_3/dtd/technicalContent/dtd/concept.ent"
 >%concept-dec;
 
 <!ENTITY % glossentry-dec
   PUBLIC "-//OASIS//ENTITIES DITA 1.3 Glossary Entry//EN"
-         "glossentry.ent"
+         "../../org.oasis-open.dita.v1_3/dtd/technicalContent/dtd/glossentry.ent"
 >%glossentry-dec;
 
 <!ENTITY % glossgroup-dec
   PUBLIC "-//OASIS//ENTITIES DITA 1.3 Glossary Group//EN"
-         "glossgroup.ent"
+         "../../org.oasis-open.dita.v1_3/dtd/technicalContent/dtd/glossgroup.ent"
 >%glossgroup-dec;
 
 <!ENTITY % reference-dec
   PUBLIC "-//OASIS//ENTITIES DITA 1.3 Reference//EN"
-         "reference.ent"
+         "../../org.oasis-open.dita.v1_3/dtd/technicalContent/dtd/reference.ent"
 >%reference-dec;
 
 <!ENTITY % troubleshooting-dec
   PUBLIC "-//OASIS//ENTITIES DITA 1.3 Troubleshooting//EN"
-         "troubleshooting.ent"
+         "../../org.oasis-open.dita.v1_3/dtd/technicalContent/dtd/troubleshooting.ent"
 >%troubleshooting-dec;
 
 <!-- ============================================================= -->
@@ -188,37 +188,37 @@ PUBLIC "-//Tagsmiths//ENTITIES DITA Common Element Sets" "commonElementSets.ent"
 
 <!ENTITY % topic-type
   PUBLIC "-//OASIS//ELEMENTS DITA 1.3 Topic//EN"
-         "../../base/dtd/topic.mod"
+         "../../org.oasis-open.dita.v1_3/dtd/base/dtd/topic.mod"
 >%topic-type;
 
 <!ENTITY % task-type
   PUBLIC "-//OASIS//ELEMENTS DITA 1.3 Task//EN"
-         "task.mod"
+         "../../org.oasis-open.dita.v1_3/dtd/technicalContent/dtd/task.mod"
 >%task-type;
 
 <!ENTITY % concept-type
   PUBLIC "-//OASIS//ELEMENTS DITA 1.3 Concept//EN"
-         "concept.mod"
+         "../../org.oasis-open.dita.v1_3/dtd/technicalContent/dtd/concept.mod"
 >%concept-type;
 
 <!ENTITY % glossentry-type
   PUBLIC "-//OASIS//ELEMENTS DITA 1.3 Glossary Entry//EN"
-         "glossentry.mod"
+         "../../org.oasis-open.dita.v1_3/dtd/technicalContent/dtd/glossentry.mod"
 >%glossentry-type;
 
 <!ENTITY % glossgroup-type
   PUBLIC "-//OASIS//ELEMENTS DITA 1.3 Glossary Group//EN"
-         "glossgroup.mod"
+         "../../org.oasis-open.dita.v1_3/dtd/technicalContent/dtd/glossgroup.mod"
 >%glossgroup-type;
 
 <!ENTITY % reference-type
   PUBLIC "-//OASIS//ELEMENTS DITA 1.3 Reference//EN"
-         "reference.mod"
+         "../../org.oasis-open.dita.v1_3/dtd/technicalContent/dtd/reference.mod"
 >%reference-type;
 
 <!ENTITY % troubleshooting-type
   PUBLIC "-//OASIS//ELEMENTS DITA 1.3 Troubleshooting//EN"
-         "troubleshooting.mod"
+         "../../org.oasis-open.dita.v1_3/dtd/technicalContent/dtd/troubleshooting.mod"
 >%troubleshooting-type;
 
 <!-- ============================================================= -->

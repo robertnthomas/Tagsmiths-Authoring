@@ -15,97 +15,97 @@ PUBLIC "-//Tagsmiths//ENTITIES DITA Common Domain Integration//EN"
 <![%abbreviated-form-domain;[
   <!ENTITY % abbrev-d-def
     PUBLIC "-//OASIS//ELEMENTS DITA 1.3 Abbreviated Form Domain//EN"
-           "abbreviateDomain.mod"
+           "../../org.oasis-open.dita.v1_3/dtd/technicalContent/dtd/abbreviateDomain.mod"
   >%abbrev-d-def;
 ]]>  
   
 <![%equation-domain;[
   <!ENTITY % equation-d-def
     PUBLIC "-//OASIS//ELEMENTS DITA 1.3 Equation Domain//EN"
-           "equationDomain.mod"
+           "../../org.oasis-open.dita.v1_3/dtd/technicalContent/dtd/equationDomain.mod"
   >%equation-d-def;
 ]]>  
   
 <![%hazard-statement-domain;[
   <!ENTITY % hazard-d-def
     PUBLIC "-//OASIS//ELEMENTS DITA 1.3 Hazard Statement Domain//EN"
-           "../../base/dtd/hazardstatementDomain.mod"
+           "../../org.oasis-open.dita.v1_3/dtd/base/dtd/hazardstatementDomain.mod"
   >%hazard-d-def;
 ]]>  
   
 <![%highlight-domain;[
   <!ENTITY % hi-d-def
     PUBLIC "-//OASIS//ELEMENTS DITA 1.3 Highlight Domain//EN"
-           "../../base/dtd/highlightDomain.mod"
+           "../../org.oasis-open.dita.v1_3/dtd/base/dtd/highlightDomain.mod"
   >%hi-d-def;
 ]]>  
   
 <![%indexing-domain;[
   <!ENTITY % indexing-d-def
     PUBLIC "-//OASIS//ELEMENTS DITA 1.3 Indexing Domain//EN"
-           "../../base/dtd/indexingDomain.mod"
+           "../../org.oasis-open.dita.v1_3/dtd/base/dtd/indexingDomain.mod"
   >%indexing-d-def;
 ]]>  
   
 <![%markup-domain;[
   <!ENTITY % markup-d-def
     PUBLIC "-//OASIS//ELEMENTS DITA 1.3 Markup Domain//EN"
-           "markupDomain.mod"
+           "../../org.oasis-open.dita.v1_3/dtd/technicalContent/dtd/markupDomain.mod"
   >%markup-d-def;
 ]]>  
   
 <![%mathml-domain;[
   <!ENTITY % mathml-d-def
     PUBLIC "-//OASIS//ELEMENTS DITA 1.3 MathML Domain//EN"
-           "mathmlDomain.mod"
+           "../../org.oasis-open.dita.v1_3/dtd/technicalContent/dtd/mathmlDomain.mod"
   >%mathml-d-def;
 ]]>  
   
 <![%programming-domain;[
   <!ENTITY % pr-d-def
     PUBLIC "-//OASIS//ELEMENTS DITA 1.3 Programming Domain//EN"
-           "programmingDomain.mod"
+           "../../org.oasis-open.dita.v1_3/dtd/technicalContent/dtd/programmingDomain.mod"
   >%pr-d-def;
 ]]>  
   
 <![%release-management-domain;[
   <!ENTITY % relmgmt-d-def
     PUBLIC "-//OASIS//ELEMENTS DITA 1.3 Release Management Domain//EN"
-           "releaseManagementDomain.mod"
+           "../../org.oasis-open.dita.v1_3/dtd/technicalContent/dtd/releaseManagementDomain.mod"
   >%relmgmt-d-def;
 ]]>  
   
 <![%software-domain;[
   <!ENTITY % sw-d-def
     PUBLIC "-//OASIS//ELEMENTS DITA 1.3 Software Domain//EN"
-           "softwareDomain.mod"
+           "../../org.oasis-open.dita.v1_3/dtd/technicalContent/dtd/softwareDomain.mod"
   >%sw-d-def;
 ]]>  
   
 <![%svg-domain;[
   <!ENTITY % svg-d-def
     PUBLIC "-//OASIS//ELEMENTS DITA 1.3 SVG Domain//EN"
-           "svgDomain.mod"
+           "../../org.oasis-open.dita.v1_3/dtd/technicalContent/dtd/svgDomain.mod"
   >%svg-d-def;
 ]]>  
   
 <![%user-interface-domain;[
   <!ENTITY % ui-d-def
     PUBLIC "-//OASIS//ELEMENTS DITA 1.3 User Interface Domain//EN"
-           "uiDomain.mod"
+           "../../org.oasis-open.dita.v1_3/dtd/technicalContent/dtd/uiDomain.mod"
   >%ui-d-def;
 ]]>  
   
 <![%utility-domain;[
   <!ENTITY % ut-d-def
     PUBLIC "-//OASIS//ELEMENTS DITA 1.3 Utilities Domain//EN"
-           "../../base/dtd/utilitiesDomain.mod"
+           "../../org.oasis-open.dita.v1_3/dtd/base/dtd/utilitiesDomain.mod"
   >%ut-d-def;
 ]]>  
   
 <![%xml-mention-domain;[
   <!ENTITY % xml-d-def
     PUBLIC "-//OASIS//ELEMENTS DITA 1.3 XML Domain//EN"
-           "xmlDomain.mod"
+           "../../org.oasis-open.dita.v1_3/dtd/technicalContent/dtd/xmlDomain.mod"
   >%xml-d-def;
 ]]>
